@@ -1,0 +1,88 @@
+{
+  "scope": "offline integration regression, no new Blender rendering or Meshy tasks",
+  "tests": {
+    "integration_passed": 7,
+    "mesh_passed": 21,
+    "mesh_skipped_blender": 2
+  },
+  "blender_available": false,
+  "runtime_not_tested": [
+    "Blender/GPU",
+    "PowerShell",
+    "Bun network download",
+    "Meshy service",
+    "FFmpeg encoding",
+    "game engine interaction"
+  ],
+  "results": [
+    {
+      "command": [
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "REPO_ROOT/tests",
+        "-q"
+      ],
+      "exit_code": 0,
+      "output": "----------------------------------------------------------------------\nRan 7 tests in 0.147s\n\nOK\n"
+    },
+    {
+      "command": [
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "REPO_ROOT/skills/build-reference-scene/modules/curio/skills/mesh-split-fill/tests",
+        "-q"
+      ],
+      "exit_code": 0,
+      "output": "runtime: log already exists; choose a new --log path\nruntime: --log must not be the script path\n----------------------------------------------------------------------\nRan 23 tests in 0.059s\n\nOK (skipped=2)\n"
+    },
+    {
+      "command": [
+        "REPO_ROOT/skills/build-reference-scene/scripts/render_progress.py",
+        "--help"
+      ],
+      "exit_code": 0,
+      "output": "usage: render_progress.py [-h] --blender BLENDER [--ffmpeg FFMPEG] --manifest\n                          MANIFEST --output-dir OUTPUT_DIR\n                          [--max-edge MAX_EDGE] [--samples SAMPLES]\n                          [--seconds-per-step SECONDS_PER_STEP]\n                          [--timeout TIMEOUT]\n\nRender real recorded checkpoints; optionally encode PNGs using installed\nFFmpeg.\n\noptions:\n  -h, --help            show this help message and exit\n  --blender BLENDER     Trusted installed Blender executable\n  --ffmpeg FFMPEG       Trusted installed FFmpeg; omit for PNG-only delivery\n  --manifest MANIFEST\n  --output-dir OUTPUT_DIR\n  --max-edge MAX_EDGE\n  --samples SAMPLES\n  --seconds-per-step SECONDS_PER_STEP\n  --timeout TIMEOUT\n"
+    },
+    {
+      "command": [
+        "REPO_ROOT/tests/validate_bundle.py"
+      ],
+      "exit_code": 0,
+      "output": "{\n  \"files\": 231,\n  \"python_files\": 57,\n  \"errors\": []\n}\n"
+    },
+    {
+      "command": [
+        "manifest.py",
+        "init",
+        "TEMP/manifest.json"
+      ],
+      "exit_code": 0,
+      "expected": 0,
+      "output": "OK\n"
+    },
+    {
+      "command": [
+        "manifest.py",
+        "check",
+        "TEMP/manifest.json"
+      ],
+      "exit_code": 0,
+      "expected": 0,
+      "output": "OK\n"
+    },
+    {
+      "command": [
+        "manifest.py",
+        "init",
+        "TEMP/manifest.json"
+      ],
+      "exit_code": 1,
+      "expected": 1,
+      "output": "odex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py\", line 1013, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileExistsError: [Errno 17] File exists: '/tmp/tmp4dgm7hql/manifest.json'\n"
+    }
+  ]
+}

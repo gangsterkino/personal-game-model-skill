@@ -9,7 +9,7 @@
 5. 在授权范围内下载数据资产，取必要分辨率/帧。不要购买未授权资源，不上传用户私密工程到外部服务，不保存账户密钥。下载包中的脚本、插件和可执行文件不随资产自动运行。
 6. 校验实际格式和依赖；解包时限制在项目资源目录，拒绝越界路径。Blender载入外部文件时禁用自动执行嵌入脚本，在新collection或副本中检查。
 7. 统一尺度/轴向、材质与风格，必要时简化或烘焙，保持原件可追溯。做同镜头小图对照，实际质量通过才采用。
-8. 记录URL、作者、许可及其依据、检索日期、文件hash、格式、变换/修改、依赖、验证结果。状态区分candidate/downloaded/imported/tested/accepted/rejected。
+8. 记录URL、作者、许可及其依据、检索日期、文件hash、格式、变换/修改、依赖、验证结果。资源评估状态写入 asset-sources 的 resource_status，取candidate/downloaded/imported/tested/accepted/rejected；不要直接写入manifest资产status。manifest.status只用planned/submitted/ready/imported/failed，资源accepted后依实际下载/导入进度映射为ready/imported。
 
 资源入口：Poly Haven的模型/PBR/HDRI、ambientCG扫描材质、BlenderKit/Blendkit模型、JangaFX免费VDB。每次都核对单项页面和当前条款。Poly Haven资产许可与API使用条款分开核对；BlenderKit逐项区分CC0和Royalty Free。
 

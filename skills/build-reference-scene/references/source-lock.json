@@ -1,0 +1,1790 @@
+{
+  "schema_version": 2,
+  "adaptation": "Reviewed integration with substantive local execution, path, download, output and documentation fixes. See REVIEW.md; no platform safety certification.",
+  "sources": [
+    {
+      "repository": "https://github.com/wss534857356/curio-asset-skills",
+      "commit": "bb4080bd0a4e34dc0c98c35301a877b127a1cda7",
+      "files": [
+        {
+          "upstream_path": "skills/curio-frame-workshop/LICENSE",
+          "path": "modules/curio/skills/curio-frame-workshop/LICENSE",
+          "source_sha256": "b9122d92cdacd48860c9e87db2a78e815dceabb6e58e2be8087e237936e3ca39",
+          "sha256": "b9122d92cdacd48860c9e87db2a78e815dceabb6e58e2be8087e237936e3ca39",
+          "previous_bundle_sha256": "b9122d92cdacd48860c9e87db2a78e815dceabb6e58e2be8087e237936e3ca39",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/curio-frame-workshop/SKILL.md",
+          "path": "modules/curio/skills/curio-frame-workshop/GUIDE.md",
+          "source_sha256": "4156a9c33447adf8db98a7b2e52507649875205e6d847a5fe7b09ff1ae8924f4",
+          "sha256": "4156a9c33447adf8db98a7b2e52507649875205e6d847a5fe7b09ff1ae8924f4",
+          "previous_bundle_sha256": "4156a9c33447adf8db98a7b2e52507649875205e6d847a5fe7b09ff1ae8924f4",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/curio-frame-workshop/agents/openai.yaml",
+          "path": "modules/curio/skills/curio-frame-workshop/agents/openai.yaml",
+          "source_sha256": "bf775889a887e3b7edb93a799940a6fcfff0ef26fd9b49a41350ab8b4d9ca375",
+          "sha256": "bf775889a887e3b7edb93a799940a6fcfff0ef26fd9b49a41350ab8b4d9ca375",
+          "previous_bundle_sha256": "bf775889a887e3b7edb93a799940a6fcfff0ef26fd9b49a41350ab8b4d9ca375",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/curio-frame-workshop/assets/frame-presets.json",
+          "path": "modules/curio/skills/curio-frame-workshop/assets/frame-presets.json",
+          "source_sha256": "224809af0129dcf28b9129396b2217f0973bad7c0983babd61da94a15f4cb83c",
+          "sha256": "224809af0129dcf28b9129396b2217f0973bad7c0983babd61da94a15f4cb83c",
+          "previous_bundle_sha256": "224809af0129dcf28b9129396b2217f0973bad7c0983babd61da94a15f4cb83c",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/curio-frame-workshop/assets/frame-spec.json",
+          "path": "modules/curio/skills/curio-frame-workshop/assets/frame-spec.json",
+          "source_sha256": "415eb7b7cc3fb39e5c803637414d3320452493bc4d59c6597c6507b7a5acbdc0",
+          "sha256": "415eb7b7cc3fb39e5c803637414d3320452493bc4d59c6597c6507b7a5acbdc0",
+          "previous_bundle_sha256": "415eb7b7cc3fb39e5c803637414d3320452493bc4d59c6597c6507b7a5acbdc0",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/curio-frame-workshop/assets/heraldry/bear.svg",
+          "path": "modules/curio/skills/curio-frame-workshop/assets/heraldry/bear.svg",
+          "source_sha256": "6f7a9960370d531223a8c8e6bba90cd3352e579d5ebbc864896d036963d3a0a6",
+          "sha256": "6f7a9960370d531223a8c8e6bba90cd3352e579d5ebbc864896d036963d3a0a6",
+          "previous_bundle_sha256": "6f7a9960370d531223a8c8e6bba90cd3352e579d5ebbc864896d036963d3a0a6",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/curio-frame-workshop/assets/heraldry/rabbit.svg",
+          "path": "modules/curio/skills/curio-frame-workshop/assets/heraldry/rabbit.svg",
+          "source_sha256": "2dc8de6f9bd7ae2ffec4199a954ab8c1c3191c14c1c91163e3fad1f55e504ce3",
+          "sha256": "2dc8de6f9bd7ae2ffec4199a954ab8c1c3191c14c1c91163e3fad1f55e504ce3",
+          "previous_bundle_sha256": "2dc8de6f9bd7ae2ffec4199a954ab8c1c3191c14c1c91163e3fad1f55e504ce3",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/curio-frame-workshop/assets/heraldry/red_deer.svg",
+          "path": "modules/curio/skills/curio-frame-workshop/assets/heraldry/red_deer.svg",
+          "source_sha256": "e7c69ea5734a0d8f0b963127bfa5fffd93ca49e7d498990b761d7b9c7bb43bfb",
+          "sha256": "e7c69ea5734a0d8f0b963127bfa5fffd93ca49e7d498990b761d7b9c7bb43bfb",
+          "previous_bundle_sha256": "e7c69ea5734a0d8f0b963127bfa5fffd93ca49e7d498990b761d7b9c7bb43bfb",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/curio-frame-workshop/assets/heraldry/tiger.svg",
+          "path": "modules/curio/skills/curio-frame-workshop/assets/heraldry/tiger.svg",
+          "source_sha256": "699bbf4fb91eca101a72286806307dda9486490535e344cd0aa8029cc87294ee",
+          "sha256": "699bbf4fb91eca101a72286806307dda9486490535e344cd0aa8029cc87294ee",
+          "previous_bundle_sha256": "699bbf4fb91eca101a72286806307dda9486490535e344cd0aa8029cc87294ee",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/curio-frame-workshop/assets/heraldry/wolf.svg",
+          "path": "modules/curio/skills/curio-frame-workshop/assets/heraldry/wolf.svg",
+          "source_sha256": "49e3d3c840f550e6812ade134b9282eb3a93312d7cb5b8f71f9bc8bc87859dac",
+          "sha256": "49e3d3c840f550e6812ade134b9282eb3a93312d7cb5b8f71f9bc8bc87859dac",
+          "previous_bundle_sha256": "49e3d3c840f550e6812ade134b9282eb3a93312d7cb5b8f71f9bc8bc87859dac",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/curio-frame-workshop/assets/heraldry.json",
+          "path": "modules/curio/skills/curio-frame-workshop/assets/heraldry.json",
+          "source_sha256": "fcd3b1f02891418afd1363bdf1fbe05fce3c31c8f3b08648bbe0f44d1dd1b4f4",
+          "sha256": "fcd3b1f02891418afd1363bdf1fbe05fce3c31c8f3b08648bbe0f44d1dd1b4f4",
+          "previous_bundle_sha256": "fcd3b1f02891418afd1363bdf1fbe05fce3c31c8f3b08648bbe0f44d1dd1b4f4",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/curio-frame-workshop/references/materials-and-heraldry.md",
+          "path": "modules/curio/skills/curio-frame-workshop/references/materials-and-heraldry.md",
+          "source_sha256": "c8123f6276719fb7478457a5ad153ee7108e5c0a1e3cd17aa8fde964c4401368",
+          "sha256": "c8123f6276719fb7478457a5ad153ee7108e5c0a1e3cd17aa8fde964c4401368",
+          "previous_bundle_sha256": "c8123f6276719fb7478457a5ad153ee7108e5c0a1e3cd17aa8fde964c4401368",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/curio-frame-workshop/references/production.md",
+          "path": "modules/curio/skills/curio-frame-workshop/references/production.md",
+          "source_sha256": "ac3d4a70e240c428947dee2b2d086bb2d50e35749d56c7467c2135328be784aa",
+          "sha256": "ac3d4a70e240c428947dee2b2d086bb2d50e35749d56c7467c2135328be784aa",
+          "previous_bundle_sha256": "ac3d4a70e240c428947dee2b2d086bb2d50e35749d56c7467c2135328be784aa",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/curio-frame-workshop/references/project-integration.md",
+          "path": "modules/curio/skills/curio-frame-workshop/references/project-integration.md",
+          "source_sha256": "90816106ce38fc3518d530039678b41f78504e60d7e84f5932717a1817d3c347",
+          "sha256": "90816106ce38fc3518d530039678b41f78504e60d7e84f5932717a1817d3c347",
+          "previous_bundle_sha256": "90816106ce38fc3518d530039678b41f78504e60d7e84f5932717a1817d3c347",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/curio-frame-workshop/scripts/frame_workshop.py",
+          "path": "modules/curio/skills/curio-frame-workshop/scripts/frame_workshop.py",
+          "source_sha256": "a8a5f6fd563febe6c438c88b6bd0ae526236c972d19e4ae167bada01f43bd615",
+          "sha256": "d18e1b87f5298748468d05006bbb06c470251b69135a72c16e20497330befaef",
+          "previous_bundle_sha256": "a8a5f6fd563febe6c438c88b6bd0ae526236c972d19e4ae167bada01f43bd615",
+          "status": "modified"
+        },
+        {
+          "upstream_path": "skills/curio-frame-workshop/scripts/ornaments.py",
+          "path": "modules/curio/skills/curio-frame-workshop/scripts/ornaments.py",
+          "source_sha256": "ff3772285d3d74a220516343334bb8588e8f3ca5e329c232575a52eff98a3655",
+          "sha256": "ff3772285d3d74a220516343334bb8588e8f3ca5e329c232575a52eff98a3655",
+          "previous_bundle_sha256": "ff3772285d3d74a220516343334bb8588e8f3ca5e329c232575a52eff98a3655",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/curio-frame-workshop/scripts/pbr_core.py",
+          "path": "modules/curio/skills/curio-frame-workshop/scripts/pbr_core.py",
+          "source_sha256": "b6be4d3ff3db16744609564114583742abceab4887aaddee33a79727f9778da7",
+          "sha256": "b6be4d3ff3db16744609564114583742abceab4887aaddee33a79727f9778da7",
+          "previous_bundle_sha256": "b6be4d3ff3db16744609564114583742abceab4887aaddee33a79727f9778da7",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/curio-jewelry-workshop/LICENSE",
+          "path": "modules/curio/skills/curio-jewelry-workshop/LICENSE",
+          "source_sha256": "b9122d92cdacd48860c9e87db2a78e815dceabb6e58e2be8087e237936e3ca39",
+          "sha256": "b9122d92cdacd48860c9e87db2a78e815dceabb6e58e2be8087e237936e3ca39",
+          "previous_bundle_sha256": "b9122d92cdacd48860c9e87db2a78e815dceabb6e58e2be8087e237936e3ca39",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/curio-jewelry-workshop/SKILL.md",
+          "path": "modules/curio/skills/curio-jewelry-workshop/GUIDE.md",
+          "source_sha256": "feccd9d83f2810fd39d8c51cea7e8371eb08d4a0f625ae4c603538a7c7e7e164",
+          "sha256": "feccd9d83f2810fd39d8c51cea7e8371eb08d4a0f625ae4c603538a7c7e7e164",
+          "previous_bundle_sha256": "feccd9d83f2810fd39d8c51cea7e8371eb08d4a0f625ae4c603538a7c7e7e164",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/curio-jewelry-workshop/agents/openai.yaml",
+          "path": "modules/curio/skills/curio-jewelry-workshop/agents/openai.yaml",
+          "source_sha256": "e9a0400aa249fa16645ea144b5a24330b6c5cc41fde00218fcf3dc7585978f88",
+          "sha256": "e9a0400aa249fa16645ea144b5a24330b6c5cc41fde00218fcf3dc7585978f88",
+          "previous_bundle_sha256": "e9a0400aa249fa16645ea144b5a24330b6c5cc41fde00218fcf3dc7585978f88",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/curio-jewelry-workshop/assets/design-examples.json",
+          "path": "modules/curio/skills/curio-jewelry-workshop/assets/design-examples.json",
+          "source_sha256": "c02a6690ed98d72125c471e8e068ccfbdd17eee890290ab2b048b3e576063c11",
+          "sha256": "c02a6690ed98d72125c471e8e068ccfbdd17eee890290ab2b048b3e576063c11",
+          "previous_bundle_sha256": "c02a6690ed98d72125c471e8e068ccfbdd17eee890290ab2b048b3e576063c11",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/curio-jewelry-workshop/references/back-surfaces.md",
+          "path": "modules/curio/skills/curio-jewelry-workshop/references/back-surfaces.md",
+          "source_sha256": "72e068dc394a3c1b168472c0a861cef396b5a6bbbeb6886dc6d598925573bda2",
+          "sha256": "72e068dc394a3c1b168472c0a861cef396b5a6bbbeb6886dc6d598925573bda2",
+          "previous_bundle_sha256": "72e068dc394a3c1b168472c0a861cef396b5a6bbbeb6886dc6d598925573bda2",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/curio-jewelry-workshop/references/faceted-cuts.md",
+          "path": "modules/curio/skills/curio-jewelry-workshop/references/faceted-cuts.md",
+          "source_sha256": "afcd6cef067302007526ad5f1158fb7e98dfe3b651161118cab3407135c64482",
+          "sha256": "afcd6cef067302007526ad5f1158fb7e98dfe3b651161118cab3407135c64482",
+          "previous_bundle_sha256": "afcd6cef067302007526ad5f1158fb7e98dfe3b651161118cab3407135c64482",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/curio-jewelry-workshop/references/integration.md",
+          "path": "modules/curio/skills/curio-jewelry-workshop/references/integration.md",
+          "source_sha256": "80f109ca332b375035b03f351f35e2e7a46ab025816c5f8296b2b4d50a96adf9",
+          "sha256": "80f109ca332b375035b03f351f35e2e7a46ab025816c5f8296b2b4d50a96adf9",
+          "previous_bundle_sha256": "80f109ca332b375035b03f351f35e2e7a46ab025816c5f8296b2b4d50a96adf9",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/curio-jewelry-workshop/references/transmission-and-display.md",
+          "path": "modules/curio/skills/curio-jewelry-workshop/references/transmission-and-display.md",
+          "source_sha256": "43f5efc7578ea316fd114dc7f5daa3c93f3f4d97f264c26e83964c9172b11a77",
+          "sha256": "43f5efc7578ea316fd114dc7f5daa3c93f3f4d97f264c26e83964c9172b11a77",
+          "previous_bundle_sha256": "43f5efc7578ea316fd114dc7f5daa3c93f3f4d97f264c26e83964c9172b11a77",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/curio-mechanism-workshop/LICENSE",
+          "path": "modules/curio/skills/curio-mechanism-workshop/LICENSE",
+          "source_sha256": "b9122d92cdacd48860c9e87db2a78e815dceabb6e58e2be8087e237936e3ca39",
+          "sha256": "b9122d92cdacd48860c9e87db2a78e815dceabb6e58e2be8087e237936e3ca39",
+          "previous_bundle_sha256": "b9122d92cdacd48860c9e87db2a78e815dceabb6e58e2be8087e237936e3ca39",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/curio-mechanism-workshop/SKILL.md",
+          "path": "modules/curio/skills/curio-mechanism-workshop/GUIDE.md",
+          "source_sha256": "d52784c211c367bb07b5feb7b295235f9adf5c847f70bb0445180f37cf9f3412",
+          "sha256": "e0a3297271913a9602a8843bfa9bb3e491a49486fba9f07d9c9b04c5522a7c31",
+          "previous_bundle_sha256": "e0a3297271913a9602a8843bfa9bb3e491a49486fba9f07d9c9b04c5522a7c31",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/curio-mechanism-workshop/agents/openai.yaml",
+          "path": "modules/curio/skills/curio-mechanism-workshop/agents/openai.yaml",
+          "source_sha256": "f031157aa5ff0c017c07d0e7901f1158019c0337ddfac73233a8d88b0c3bc2ff",
+          "sha256": "f031157aa5ff0c017c07d0e7901f1158019c0337ddfac73233a8d88b0c3bc2ff",
+          "previous_bundle_sha256": "f031157aa5ff0c017c07d0e7901f1158019c0337ddfac73233a8d88b0c3bc2ff",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/curio-mechanism-workshop/assets/mechanism-spec.example.json",
+          "path": "modules/curio/skills/curio-mechanism-workshop/assets/mechanism-spec.example.json",
+          "source_sha256": "8582ece09478d4553cc27ce4ce9e547bf9a5aef9c99f3da7202a919e8908670c",
+          "sha256": "8582ece09478d4553cc27ce4ce9e547bf9a5aef9c99f3da7202a919e8908670c",
+          "previous_bundle_sha256": "8582ece09478d4553cc27ce4ce9e547bf9a5aef9c99f3da7202a919e8908670c",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/curio-mechanism-workshop/references/badger-balance-case.md",
+          "path": "modules/curio/skills/curio-mechanism-workshop/references/badger-balance-case.md",
+          "source_sha256": "1e29a52324903054182a4dbc48d8c53d0fba8574545632ca1c6c1702f1127ed6",
+          "sha256": "1e29a52324903054182a4dbc48d8c53d0fba8574545632ca1c6c1702f1127ed6",
+          "previous_bundle_sha256": "1e29a52324903054182a4dbc48d8c53d0fba8574545632ca1c6c1702f1127ed6",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/curio-mechanism-workshop/references/first-interaction-performance.md",
+          "path": "modules/curio/skills/curio-mechanism-workshop/references/first-interaction-performance.md",
+          "source_sha256": "c6071117570b23c0ba7f3ed97596ef33732d1e7cb6769487e3b9c51b807c6673",
+          "sha256": "c6071117570b23c0ba7f3ed97596ef33732d1e7cb6769487e3b9c51b807c6673",
+          "previous_bundle_sha256": "c6071117570b23c0ba7f3ed97596ef33732d1e7cb6769487e3b9c51b807c6673",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/curio-mechanism-workshop/references/mechanism-design.md",
+          "path": "modules/curio/skills/curio-mechanism-workshop/references/mechanism-design.md",
+          "source_sha256": "3bcb683912d5ac691d52ac304acaeb5a11c301ed3632a1151fba101035a390d1",
+          "sha256": "3bcb683912d5ac691d52ac304acaeb5a11c301ed3632a1151fba101035a390d1",
+          "previous_bundle_sha256": "3bcb683912d5ac691d52ac304acaeb5a11c301ed3632a1151fba101035a390d1",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/curio-mechanism-workshop/references/meshy-pipeline.md",
+          "path": "modules/curio/skills/curio-mechanism-workshop/references/meshy-pipeline.md",
+          "source_sha256": "726664e4dd0f6d5d6157eb0bcad3debcd2284cedae86b52458265c04a4c3680f",
+          "sha256": "e6c214c5463db7d8b902b786d3ee18a7e2fc05d5098a1a64c39ffe022a9a3a28",
+          "previous_bundle_sha256": "726664e4dd0f6d5d6157eb0bcad3debcd2284cedae86b52458265c04a4c3680f",
+          "status": "modified"
+        },
+        {
+          "upstream_path": "skills/curio-mechanism-workshop/references/runtime-and-icons.md",
+          "path": "modules/curio/skills/curio-mechanism-workshop/references/runtime-and-icons.md",
+          "source_sha256": "c161b2042475c13a23c5c54afab79c7764d47d77421067547dc5ccef0f81d72f",
+          "sha256": "c161b2042475c13a23c5c54afab79c7764d47d77421067547dc5ccef0f81d72f",
+          "previous_bundle_sha256": "c161b2042475c13a23c5c54afab79c7764d47d77421067547dc5ccef0f81d72f",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/curio-mechanism-workshop/references/surface-artifacts.md",
+          "path": "modules/curio/skills/curio-mechanism-workshop/references/surface-artifacts.md",
+          "source_sha256": "81274bb8b29c94e4bbae9de43213a3ff3ed00e77332d55eb95b367de0ed2a3ff",
+          "sha256": "81274bb8b29c94e4bbae9de43213a3ff3ed00e77332d55eb95b367de0ed2a3ff",
+          "previous_bundle_sha256": "81274bb8b29c94e4bbae9de43213a3ff3ed00e77332d55eb95b367de0ed2a3ff",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/curio-mechanism-workshop/references/surface-relief.md",
+          "path": "modules/curio/skills/curio-mechanism-workshop/references/surface-relief.md",
+          "source_sha256": "2c037a8a6a85e0bd7ae655124194743bd4f89a2dab3481a50205d74d51a94489",
+          "sha256": "2c037a8a6a85e0bd7ae655124194743bd4f89a2dab3481a50205d74d51a94489",
+          "previous_bundle_sha256": "2c037a8a6a85e0bd7ae655124194743bd4f89a2dab3481a50205d74d51a94489",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/curio-mechanism-workshop/references/visual-fidelity.md",
+          "path": "modules/curio/skills/curio-mechanism-workshop/references/visual-fidelity.md",
+          "source_sha256": "b9673cd57a38c2d37680334d6e740d1098992e976cc26445fe92a9f599c5b4d9",
+          "sha256": "b9673cd57a38c2d37680334d6e740d1098992e976cc26445fe92a9f599c5b4d9",
+          "previous_bundle_sha256": "b9673cd57a38c2d37680334d6e740d1098992e976cc26445fe92a9f599c5b4d9",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/curio-mechanism-workshop/scripts/inspect_glb.py",
+          "path": "modules/curio/skills/curio-mechanism-workshop/scripts/inspect_glb.py",
+          "source_sha256": "37a6f1a102b606586a2cd201f8ca67c184940f89c22680863a2c1f61669b8742",
+          "sha256": "37a6f1a102b606586a2cd201f8ca67c184940f89c22680863a2c1f61669b8742",
+          "previous_bundle_sha256": "37a6f1a102b606586a2cd201f8ca67c184940f89c22680863a2c1f61669b8742",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/curio-oil-paintings/LICENSE",
+          "path": "modules/curio/skills/curio-oil-paintings/LICENSE",
+          "source_sha256": "b9122d92cdacd48860c9e87db2a78e815dceabb6e58e2be8087e237936e3ca39",
+          "sha256": "b9122d92cdacd48860c9e87db2a78e815dceabb6e58e2be8087e237936e3ca39",
+          "previous_bundle_sha256": "b9122d92cdacd48860c9e87db2a78e815dceabb6e58e2be8087e237936e3ca39",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/curio-oil-paintings/SKILL.md",
+          "path": "modules/curio/skills/curio-oil-paintings/GUIDE.md",
+          "source_sha256": "3f57b871150f269b12562a7bf10d3eb3b037cb34a861891c39f7462b6f59b5ea",
+          "sha256": "3f57b871150f269b12562a7bf10d3eb3b037cb34a861891c39f7462b6f59b5ea",
+          "previous_bundle_sha256": "3f57b871150f269b12562a7bf10d3eb3b037cb34a861891c39f7462b6f59b5ea",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/curio-oil-paintings/agents/openai.yaml",
+          "path": "modules/curio/skills/curio-oil-paintings/agents/openai.yaml",
+          "source_sha256": "c4617ae4c77dd9c11a3a526bdfd104b61954b99659484233d4684885a7873a15",
+          "sha256": "c4617ae4c77dd9c11a3a526bdfd104b61954b99659484233d4684885a7873a15",
+          "previous_bundle_sha256": "c4617ae4c77dd9c11a3a526bdfd104b61954b99659484233d4684885a7873a15",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/curio-oil-paintings/assets/painting-recipe.example.json",
+          "path": "modules/curio/skills/curio-oil-paintings/assets/painting-recipe.example.json",
+          "source_sha256": "49814d3f6dbb54a9047583aa08033a4d629ffc1ef46f8a5e31146db649a2a1a0",
+          "sha256": "49814d3f6dbb54a9047583aa08033a4d629ffc1ef46f8a5e31146db649a2a1a0",
+          "previous_bundle_sha256": "49814d3f6dbb54a9047583aa08033a4d629ffc1ef46f8a5e31146db649a2a1a0",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/curio-oil-paintings/assets/painting-recipes.json",
+          "path": "modules/curio/skills/curio-oil-paintings/assets/painting-recipes.json",
+          "source_sha256": "7d1712f2ca24f87c48b716e6190fdabb3ab28de018846ebc161b532807ab3a2a",
+          "sha256": "7d1712f2ca24f87c48b716e6190fdabb3ab28de018846ebc161b532807ab3a2a",
+          "previous_bundle_sha256": "7d1712f2ca24f87c48b716e6190fdabb3ab28de018846ebc161b532807ab3a2a",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/curio-oil-paintings/references/authenticity.md",
+          "path": "modules/curio/skills/curio-oil-paintings/references/authenticity.md",
+          "source_sha256": "aa868a288b632894d3e04a013f228719e67a9677b8c9365ffa0fa9b51cf9e4e4",
+          "sha256": "aa868a288b632894d3e04a013f228719e67a9677b8c9365ffa0fa9b51cf9e4e4",
+          "previous_bundle_sha256": "aa868a288b632894d3e04a013f228719e67a9677b8c9365ffa0fa9b51cf9e4e4",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/curio-oil-paintings/references/normal-first.md",
+          "path": "modules/curio/skills/curio-oil-paintings/references/normal-first.md",
+          "source_sha256": "682c7d395bb6605f8aecebd89eebae18d7475c913be1ade5b1671f50dca7f41b",
+          "sha256": "682c7d395bb6605f8aecebd89eebae18d7475c913be1ade5b1671f50dca7f41b",
+          "previous_bundle_sha256": "682c7d395bb6605f8aecebd89eebae18d7475c913be1ade5b1671f50dca7f41b",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/curio-oil-paintings/references/project-integration.md",
+          "path": "modules/curio/skills/curio-oil-paintings/references/project-integration.md",
+          "source_sha256": "fde529481799dc2cadfc5501d374d6140fc798f9c81f4b579d687f2a5861f234",
+          "sha256": "fde529481799dc2cadfc5501d374d6140fc798f9c81f4b579d687f2a5861f234",
+          "previous_bundle_sha256": "fde529481799dc2cadfc5501d374d6140fc798f9c81f4b579d687f2a5861f234",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/curio-oil-paintings/references/surface-materials.md",
+          "path": "modules/curio/skills/curio-oil-paintings/references/surface-materials.md",
+          "source_sha256": "8c0ae6093ce0ca43c85c0a59b190fcd78761ff57a53713f90213aeb8b9479b1b",
+          "sha256": "8c0ae6093ce0ca43c85c0a59b190fcd78761ff57a53713f90213aeb8b9479b1b",
+          "previous_bundle_sha256": "8c0ae6093ce0ca43c85c0a59b190fcd78761ff57a53713f90213aeb8b9479b1b",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/curio-oil-paintings/scripts/paint_surface.py",
+          "path": "modules/curio/skills/curio-oil-paintings/scripts/paint_surface.py",
+          "source_sha256": "2e28d065bcf7a220804d3b885dff01140e8f1a2093537570e750e693e83a8f76",
+          "sha256": "f2bb64cc996f44feec541c8320a7db125805488dcf0121bb4b3858624ffeab4d",
+          "previous_bundle_sha256": "2e28d065bcf7a220804d3b885dff01140e8f1a2093537570e750e693e83a8f76",
+          "status": "modified"
+        },
+        {
+          "upstream_path": "skills/curio-oil-paintings/scripts/pbr_core.py",
+          "path": "modules/curio/skills/curio-oil-paintings/scripts/pbr_core.py",
+          "source_sha256": "b6be4d3ff3db16744609564114583742abceab4887aaddee33a79727f9778da7",
+          "sha256": "b6be4d3ff3db16744609564114583742abceab4887aaddee33a79727f9778da7",
+          "previous_bundle_sha256": "b6be4d3ff3db16744609564114583742abceab4887aaddee33a79727f9778da7",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/curio-oil-paintings/scripts/prepare_painting.py",
+          "path": "modules/curio/skills/curio-oil-paintings/scripts/prepare_painting.py",
+          "source_sha256": "f2db8234bfd47b0a8e91c5197d153a8d742ff0b58ec4ac870ab0eb52e236948d",
+          "sha256": "f25b1ca6be26559445d1bfe84c841199b56e070a2d38bba28b25fc2dbbe4f1ed",
+          "previous_bundle_sha256": "f2db8234bfd47b0a8e91c5197d153a8d742ff0b58ec4ac870ab0eb52e236948d",
+          "status": "modified"
+        },
+        {
+          "upstream_path": "skills/curio-part-finishing/LICENSE",
+          "path": "modules/curio/skills/curio-part-finishing/LICENSE",
+          "source_sha256": "b9122d92cdacd48860c9e87db2a78e815dceabb6e58e2be8087e237936e3ca39",
+          "sha256": "b9122d92cdacd48860c9e87db2a78e815dceabb6e58e2be8087e237936e3ca39",
+          "previous_bundle_sha256": "b9122d92cdacd48860c9e87db2a78e815dceabb6e58e2be8087e237936e3ca39",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/curio-part-finishing/SKILL.md",
+          "path": "modules/curio/skills/curio-part-finishing/GUIDE.md",
+          "source_sha256": "f2d4e4ad2fa8d1cb22e4a531ef7d33772538ec1007a901dfac40a783398f405d",
+          "sha256": "f2d4e4ad2fa8d1cb22e4a531ef7d33772538ec1007a901dfac40a783398f405d",
+          "previous_bundle_sha256": "f2d4e4ad2fa8d1cb22e4a531ef7d33772538ec1007a901dfac40a783398f405d",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/curio-part-finishing/agents/openai.yaml",
+          "path": "modules/curio/skills/curio-part-finishing/agents/openai.yaml",
+          "source_sha256": "ef0d00f2f5405984fe19495f82174016ff2c7cf8d6a5de77c5b6abbcd9f2d44e",
+          "sha256": "ef0d00f2f5405984fe19495f82174016ff2c7cf8d6a5de77c5b6abbcd9f2d44e",
+          "previous_bundle_sha256": "ef0d00f2f5405984fe19495f82174016ff2c7cf8d6a5de77c5b6abbcd9f2d44e",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/curio-part-finishing/assets/d02-collar-plan.example.json",
+          "path": "modules/curio/skills/curio-part-finishing/assets/d02-collar-plan.example.json",
+          "source_sha256": "eb4459e9ef6b78b3ec8ac44d0eeb6e42e863458a807196c8e0308187f93c8b46",
+          "sha256": "eb4459e9ef6b78b3ec8ac44d0eeb6e42e863458a807196c8e0308187f93c8b46",
+          "previous_bundle_sha256": "eb4459e9ef6b78b3ec8ac44d0eeb6e42e863458a807196c8e0308187f93c8b46",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/curio-part-finishing/references/blueprint-grinding.md",
+          "path": "modules/curio/skills/curio-part-finishing/references/blueprint-grinding.md",
+          "source_sha256": "f31ba254bb28415813fc0b1b3dfdca9b7e5685eff47706020eb88f4df5180546",
+          "sha256": "f31ba254bb28415813fc0b1b3dfdca9b7e5685eff47706020eb88f4df5180546",
+          "previous_bundle_sha256": "f31ba254bb28415813fc0b1b3dfdca9b7e5685eff47706020eb88f4df5180546",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/curio-part-finishing/references/integration.md",
+          "path": "modules/curio/skills/curio-part-finishing/references/integration.md",
+          "source_sha256": "b931c22747bd44fb3ba4bcf888098161534cdef43b17c3a58c768c3824564089",
+          "sha256": "b931c22747bd44fb3ba4bcf888098161534cdef43b17c3a58c768c3824564089",
+          "previous_bundle_sha256": "b931c22747bd44fb3ba4bcf888098161534cdef43b17c3a58c768c3824564089",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/curio-part-finishing/references/materials-and-tools.md",
+          "path": "modules/curio/skills/curio-part-finishing/references/materials-and-tools.md",
+          "source_sha256": "724b88bb2bf224978dcdab4ed4c3133b14a6f6fe2c148567c46fe3d181d5ae21",
+          "sha256": "724b88bb2bf224978dcdab4ed4c3133b14a6f6fe2c148567c46fe3d181d5ae21",
+          "previous_bundle_sha256": "724b88bb2bf224978dcdab4ed4c3133b14a6f6fe2c148567c46fe3d181d5ae21",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/evolve-blender-assets/LICENSE",
+          "path": "modules/curio/skills/evolve-blender-assets/LICENSE",
+          "source_sha256": "b9122d92cdacd48860c9e87db2a78e815dceabb6e58e2be8087e237936e3ca39",
+          "sha256": "b9122d92cdacd48860c9e87db2a78e815dceabb6e58e2be8087e237936e3ca39",
+          "previous_bundle_sha256": "b9122d92cdacd48860c9e87db2a78e815dceabb6e58e2be8087e237936e3ca39",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/evolve-blender-assets/SKILL.md",
+          "path": "modules/curio/skills/evolve-blender-assets/GUIDE.md",
+          "source_sha256": "eebd8d9486001adcef18dc8bce1b0e8678a3b13eec4a8c371a7afb93351eb606",
+          "sha256": "eebd8d9486001adcef18dc8bce1b0e8678a3b13eec4a8c371a7afb93351eb606",
+          "previous_bundle_sha256": "eebd8d9486001adcef18dc8bce1b0e8678a3b13eec4a8c371a7afb93351eb606",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/evolve-blender-assets/agents/openai.yaml",
+          "path": "modules/curio/skills/evolve-blender-assets/agents/openai.yaml",
+          "source_sha256": "f3d4d2ee0365c74f6fe59321351999480aa44997aef0eb3ea9195887b4add2a7",
+          "sha256": "f3d4d2ee0365c74f6fe59321351999480aa44997aef0eb3ea9195887b4add2a7",
+          "previous_bundle_sha256": "f3d4d2ee0365c74f6fe59321351999480aa44997aef0eb3ea9195887b4add2a7",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/evolve-blender-assets/references/blender-runtime-contract.md",
+          "path": "modules/curio/skills/evolve-blender-assets/references/blender-runtime-contract.md",
+          "source_sha256": "dda6c8616da79f44d55e125a46da59bb8d9a39864342fe9a1f91f5bed62f3b7d",
+          "sha256": "dda6c8616da79f44d55e125a46da59bb8d9a39864342fe9a1f91f5bed62f3b7d",
+          "previous_bundle_sha256": "dda6c8616da79f44d55e125a46da59bb8d9a39864342fe9a1f91f5bed62f3b7d",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/evolve-blender-assets/references/evidence-and-review.md",
+          "path": "modules/curio/skills/evolve-blender-assets/references/evidence-and-review.md",
+          "source_sha256": "e72de9ad0ebe6554301543661cfa9ffddd4e5a798536eed6644b64ce20de5a2a",
+          "sha256": "e72de9ad0ebe6554301543661cfa9ffddd4e5a798536eed6644b64ce20de5a2a",
+          "previous_bundle_sha256": "e72de9ad0ebe6554301543661cfa9ffddd4e5a798536eed6644b64ce20de5a2a",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/evolve-blender-assets/references/evolution-contract.md",
+          "path": "modules/curio/skills/evolve-blender-assets/references/evolution-contract.md",
+          "source_sha256": "d905928d3df5e30e309f9e4d58dd5d86a1767d2c3f18e882179b06d5a724ea22",
+          "sha256": "d905928d3df5e30e309f9e4d58dd5d86a1767d2c3f18e882179b06d5a724ea22",
+          "previous_bundle_sha256": "d905928d3df5e30e309f9e4d58dd5d86a1767d2c3f18e882179b06d5a724ea22",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/evolve-blender-assets/scripts/anchor_asset_case.py",
+          "path": "modules/curio/skills/evolve-blender-assets/scripts/anchor_asset_case.py",
+          "source_sha256": "6d810de110a4501461bfb62820d6155fcd18950944b4d9294128f01b75251234",
+          "sha256": "6d810de110a4501461bfb62820d6155fcd18950944b4d9294128f01b75251234",
+          "previous_bundle_sha256": "6d810de110a4501461bfb62820d6155fcd18950944b4d9294128f01b75251234",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/evolve-blender-assets/scripts/init_asset_case.py",
+          "path": "modules/curio/skills/evolve-blender-assets/scripts/init_asset_case.py",
+          "source_sha256": "ac3105e3031371977aeea7609820ea05c474ab0117f64a7754dbf35b01db210f",
+          "sha256": "ac3105e3031371977aeea7609820ea05c474ab0117f64a7754dbf35b01db210f",
+          "previous_bundle_sha256": "ac3105e3031371977aeea7609820ea05c474ab0117f64a7754dbf35b01db210f",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/evolve-blender-assets/scripts/validate_asset_case.py",
+          "path": "modules/curio/skills/evolve-blender-assets/scripts/validate_asset_case.py",
+          "source_sha256": "2c08651282a0ec75958ebcdc3e15a8eb8e64e64517832fbf0faad9ab9a3152e8",
+          "sha256": "2c08651282a0ec75958ebcdc3e15a8eb8e64e64517832fbf0faad9ab9a3152e8",
+          "previous_bundle_sha256": "2c08651282a0ec75958ebcdc3e15a8eb8e64e64517832fbf0faad9ab9a3152e8",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/mesh-split-fill/LICENSE",
+          "path": "modules/curio/skills/mesh-split-fill/LICENSE",
+          "source_sha256": "c293bfa9c10453cd7a74db4dbc2494f4d23df7ff5a0635dc4ac0142e60a70c10",
+          "sha256": "c293bfa9c10453cd7a74db4dbc2494f4d23df7ff5a0635dc4ac0142e60a70c10",
+          "previous_bundle_sha256": "c293bfa9c10453cd7a74db4dbc2494f4d23df7ff5a0635dc4ac0142e60a70c10",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/mesh-split-fill/README.md",
+          "path": "modules/curio/skills/mesh-split-fill/README.md",
+          "source_sha256": "f976b9c92ff7354657b2638b049e4c25a913a5972647f4d10e809ac65e2ed638",
+          "sha256": "6964f8c819bf080b47ed18842c38ff339d2ab5fe1489707e0d281dee8bce6c06",
+          "previous_bundle_sha256": "9b10e33163493b8865ff56a07885b5c0d59772d395cd5b2b52b9f661078cf726",
+          "status": "modified"
+        },
+        {
+          "upstream_path": "skills/mesh-split-fill/SKILL.md",
+          "path": "modules/curio/skills/mesh-split-fill/GUIDE.md",
+          "source_sha256": "7cb6abd3be888108ade74379dbcb86251eb3c2a81cacd7918d940b17e42d41f3",
+          "sha256": "7cb6abd3be888108ade74379dbcb86251eb3c2a81cacd7918d940b17e42d41f3",
+          "previous_bundle_sha256": "7cb6abd3be888108ade74379dbcb86251eb3c2a81cacd7918d940b17e42d41f3",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/mesh-split-fill/agents/openai.yaml",
+          "path": "modules/curio/skills/mesh-split-fill/agents/openai.yaml",
+          "source_sha256": "75c401edd990ce5f0a3f4154aed6183d0271233af77049cdbb85044ebbee8090",
+          "sha256": "75c401edd990ce5f0a3f4154aed6183d0271233af77049cdbb85044ebbee8090",
+          "previous_bundle_sha256": "75c401edd990ce5f0a3f4154aed6183d0271233af77049cdbb85044ebbee8090",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/mesh-split-fill/references/deployment.md",
+          "path": "modules/curio/skills/mesh-split-fill/references/deployment.md",
+          "source_sha256": "a5e50cf732ffa9f2c77f3a0528335852d192e786819b2a52da0502a4d7de3e5b",
+          "sha256": "fb78248a7a6f0987c5a3b0136bf4057ccbe612424ec8cf565422583c12c59e59",
+          "previous_bundle_sha256": "fdc7031eedb3f47bf5f99c3f9ac30141af3429df7e2ae6a63b63f8c7dd6fe7b0",
+          "status": "modified"
+        },
+        {
+          "upstream_path": "skills/mesh-split-fill/references/geometry.md",
+          "path": "modules/curio/skills/mesh-split-fill/references/geometry.md",
+          "source_sha256": "8a498a68d1070fe357d051aafc63538549bdb4443f1ef32f423f1a2eba6f49f8",
+          "sha256": "8a498a68d1070fe357d051aafc63538549bdb4443f1ef32f423f1a2eba6f49f8",
+          "previous_bundle_sha256": "8a498a68d1070fe357d051aafc63538549bdb4443f1ef32f423f1a2eba6f49f8",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/mesh-split-fill/references/workflow.md",
+          "path": "modules/curio/skills/mesh-split-fill/references/workflow.md",
+          "source_sha256": "8bf9c052683f0d5c74d93e32f7b06fa38d19b804cae86d926e33039677e4b0df",
+          "sha256": "8bf9c052683f0d5c74d93e32f7b06fa38d19b804cae86d926e33039677e4b0df",
+          "previous_bundle_sha256": "8bf9c052683f0d5c74d93e32f7b06fa38d19b804cae86d926e33039677e4b0df",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/mesh-split-fill/scripts/blender_inspect.py",
+          "path": "modules/curio/skills/mesh-split-fill/scripts/blender_inspect.py",
+          "source_sha256": "8a40bf4af1d25e1813331e6d21cdd1e8f99a8b072980fa0319ebc5df32c886b7",
+          "sha256": "8a40bf4af1d25e1813331e6d21cdd1e8f99a8b072980fa0319ebc5df32c886b7",
+          "previous_bundle_sha256": "8a40bf4af1d25e1813331e6d21cdd1e8f99a8b072980fa0319ebc5df32c886b7",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/mesh-split-fill/scripts/install.py",
+          "path": "modules/curio/skills/mesh-split-fill/scripts/install.py",
+          "source_sha256": "a6d655c5be10469a433fa094c8cf799abad7b3c0db30e56605b3dced3b9c54db",
+          "sha256": null,
+          "previous_bundle_sha256": "a6d655c5be10469a433fa094c8cf799abad7b3c0db30e56605b3dced3b9c54db",
+          "status": "excluded",
+          "reason": "Redundant nested installer removed; install the parent skill only."
+        },
+        {
+          "upstream_path": "skills/mesh-split-fill/scripts/job.py",
+          "path": "modules/curio/skills/mesh-split-fill/scripts/job.py",
+          "source_sha256": "4e37e0fdff05ca9aa9442aca66a5715fda851f639acfe77c693f493a5b1ff436",
+          "sha256": "4e1da6a28a4d90a2b14087fd9de7010e6285cca285ec4aa937e6e0a55f2ff97c",
+          "previous_bundle_sha256": "4e37e0fdff05ca9aa9442aca66a5715fda851f639acfe77c693f493a5b1ff436",
+          "status": "modified"
+        },
+        {
+          "upstream_path": "skills/mesh-split-fill/scripts/mesh_geometry.py",
+          "path": "modules/curio/skills/mesh-split-fill/scripts/mesh_geometry.py",
+          "source_sha256": "a46e5fd6ea2d9a14a24843387ab8a340a85e006fc6f7b1648d7f0e20d33fd807",
+          "sha256": "a46e5fd6ea2d9a14a24843387ab8a340a85e006fc6f7b1648d7f0e20d33fd807",
+          "previous_bundle_sha256": "a46e5fd6ea2d9a14a24843387ab8a340a85e006fc6f7b1648d7f0e20d33fd807",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/mesh-split-fill/scripts/runtime.py",
+          "path": "modules/curio/skills/mesh-split-fill/scripts/runtime.py",
+          "source_sha256": "ce03cbde5491c8df28521500a5fa96e2c5db15bc0ab8e064966966535bd988b6",
+          "sha256": "ce03cbde5491c8df28521500a5fa96e2c5db15bc0ab8e064966966535bd988b6",
+          "previous_bundle_sha256": "ce03cbde5491c8df28521500a5fa96e2c5db15bc0ab8e064966966535bd988b6",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/mesh-split-fill/scripts/storyboard.py",
+          "path": "modules/curio/skills/mesh-split-fill/scripts/storyboard.py",
+          "source_sha256": "c15f79cf1446e10e7fb40f7097c784a85118dc11551a680f4a631d4cdd98b0c9",
+          "sha256": "52e9577e0d06ec7b96a2cad607a158269ef0017c99227ee5d4fc6e447733c312",
+          "previous_bundle_sha256": "c15f79cf1446e10e7fb40f7097c784a85118dc11551a680f4a631d4cdd98b0c9",
+          "status": "modified"
+        },
+        {
+          "upstream_path": "skills/mesh-split-fill/tests/test_mesh_geometry.py",
+          "path": "modules/curio/skills/mesh-split-fill/tests/test_mesh_geometry.py",
+          "source_sha256": "8970bf42ac316cc47b892b944e85db4987d790c4ca507eee8ba8e37a91f52f0d",
+          "sha256": "8970bf42ac316cc47b892b944e85db4987d790c4ca507eee8ba8e37a91f52f0d",
+          "previous_bundle_sha256": "8970bf42ac316cc47b892b944e85db4987d790c4ca507eee8ba8e37a91f52f0d",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/mesh-split-fill/tests/test_runtime.py",
+          "path": "modules/curio/skills/mesh-split-fill/tests/test_runtime.py",
+          "source_sha256": "5105f5784421918d24c34b3b0f228982c6dd56d38f6e1df018ca14b147500a9b",
+          "sha256": "5105f5784421918d24c34b3b0f228982c6dd56d38f6e1df018ca14b147500a9b",
+          "previous_bundle_sha256": "5105f5784421918d24c34b3b0f228982c6dd56d38f6e1df018ca14b147500a9b",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/mesh-split-fill/tests/test_workflow.py",
+          "path": "modules/curio/skills/mesh-split-fill/tests/test_workflow.py",
+          "source_sha256": "ac09eaced2c43497dc6f95f63a8c5448c6bcb1641c9db2bd57bd53522da35b27",
+          "sha256": "f692bfe9eece1a1b41ca263dcc420dbdafa6f9519ae36c6053bc6cd3e26a8ec4",
+          "previous_bundle_sha256": "ac09eaced2c43497dc6f95f63a8c5448c6bcb1641c9db2bd57bd53522da35b27",
+          "status": "modified"
+        },
+        {
+          "upstream_path": "skills/meshy-3d-generation/LICENSE",
+          "path": "modules/curio/skills/meshy-3d-generation/LICENSE",
+          "source_sha256": "b1646c47cf3e86567c0ed08a81b28cad7ee7c47e4df6bcbff78547324b6d9613",
+          "sha256": "b1646c47cf3e86567c0ed08a81b28cad7ee7c47e4df6bcbff78547324b6d9613",
+          "previous_bundle_sha256": "b1646c47cf3e86567c0ed08a81b28cad7ee7c47e4df6bcbff78547324b6d9613",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/meshy-3d-generation/SKILL.md",
+          "path": "modules/curio/skills/meshy-3d-generation/GUIDE.md",
+          "source_sha256": "7d27c7bac9130182c6da354e5fe4e2573c153ed7568e305686f90d9709697623",
+          "sha256": "1ac01f2dcdcda6bd2dd94bdded6fa080cc5daf89aaa739b2284273524db707cf",
+          "previous_bundle_sha256": "7d27c7bac9130182c6da354e5fe4e2573c153ed7568e305686f90d9709697623",
+          "status": "modified"
+        },
+        {
+          "upstream_path": "skills/meshy-3d-generation/agents/openai.yaml",
+          "path": "modules/curio/skills/meshy-3d-generation/agents/openai.yaml",
+          "source_sha256": "6032b37b7e9e8ac6fb157584a13acd86f2ab5456d35c55ad2eb342a0f8ac2adf",
+          "sha256": "6032b37b7e9e8ac6fb157584a13acd86f2ab5456d35c55ad2eb342a0f8ac2adf",
+          "previous_bundle_sha256": "6032b37b7e9e8ac6fb157584a13acd86f2ab5456d35c55ad2eb342a0f8ac2adf",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/meshy-3d-generation/assets/meshy-composer-icon.svg",
+          "path": "modules/curio/skills/meshy-3d-generation/assets/meshy-composer-icon.svg",
+          "source_sha256": "64596f7980d440c9ae4c78455bd25c8dd69d87b466dbe2f5607d993348f56a7e",
+          "sha256": "64596f7980d440c9ae4c78455bd25c8dd69d87b466dbe2f5607d993348f56a7e",
+          "previous_bundle_sha256": "64596f7980d440c9ae4c78455bd25c8dd69d87b466dbe2f5607d993348f56a7e",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/meshy-3d-generation/assets/meshy-icon.svg",
+          "path": "modules/curio/skills/meshy-3d-generation/assets/meshy-icon.svg",
+          "source_sha256": "bec6710db9892e3b137e044d4481598b39ee06127e031a2d2b63c17ae89da3e9",
+          "sha256": "bec6710db9892e3b137e044d4481598b39ee06127e031a2d2b63c17ae89da3e9",
+          "previous_bundle_sha256": "bec6710db9892e3b137e044d4481598b39ee06127e031a2d2b63c17ae89da3e9",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/meshy-3d-generation/references/delivery.md",
+          "path": "modules/curio/skills/meshy-3d-generation/references/delivery.md",
+          "source_sha256": "b2a2648fa499f84a1cb0c53f8bb4c88b195c3abbe7258a37bb86cd2e411c24eb",
+          "sha256": "b2a2648fa499f84a1cb0c53f8bb4c88b195c3abbe7258a37bb86cd2e411c24eb",
+          "previous_bundle_sha256": "b2a2648fa499f84a1cb0c53f8bb4c88b195c3abbe7258a37bb86cd2e411c24eb",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/meshy-3d-generation/references/pipelines.md",
+          "path": "modules/curio/skills/meshy-3d-generation/references/pipelines.md",
+          "source_sha256": "61fb99e43c76e6b0b8975f169e30d18a0520d406378ed6610642d35efac4d492",
+          "sha256": "61fb99e43c76e6b0b8975f169e30d18a0520d406378ed6610642d35efac4d492",
+          "previous_bundle_sha256": "61fb99e43c76e6b0b8975f169e30d18a0520d406378ed6610642d35efac4d492",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/meshy-3d-generation/references/setup.md",
+          "path": "modules/curio/skills/meshy-3d-generation/references/setup.md",
+          "source_sha256": "11e96cac86a088d1de036e7d9d34fdea63dbb559193fef7d097974f6541565eb",
+          "sha256": "181697cdea2fc987d064dac232a831fc8130b3534aee207adaf6da2ecccbea6f",
+          "previous_bundle_sha256": "11e96cac86a088d1de036e7d9d34fdea63dbb559193fef7d097974f6541565eb",
+          "status": "modified"
+        },
+        {
+          "upstream_path": "skills/meshy-3d-generation/references/troubleshooting.md",
+          "path": "modules/curio/skills/meshy-3d-generation/references/troubleshooting.md",
+          "source_sha256": "592b8c2fbb1615032463d519a581d81c291663922b05cab5b6d2fab947e728c7",
+          "sha256": "37f0c4e6d3b379cec1a1a7ed1e3c52742c5aab2000b239cae856f3ccbb167555",
+          "previous_bundle_sha256": "592b8c2fbb1615032463d519a581d81c291663922b05cab5b6d2fab947e728c7",
+          "status": "modified"
+        },
+        {
+          "upstream_path": "skills/noir-character-pipeline/LICENSE",
+          "path": "modules/curio/skills/noir-character-pipeline/LICENSE",
+          "source_sha256": "b9122d92cdacd48860c9e87db2a78e815dceabb6e58e2be8087e237936e3ca39",
+          "sha256": "b9122d92cdacd48860c9e87db2a78e815dceabb6e58e2be8087e237936e3ca39",
+          "previous_bundle_sha256": "b9122d92cdacd48860c9e87db2a78e815dceabb6e58e2be8087e237936e3ca39",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/noir-character-pipeline/SKILL.md",
+          "path": "modules/curio/skills/noir-character-pipeline/GUIDE.md",
+          "source_sha256": "6c13fc744f54d1cc23e5fe5967eeb06ff3e701cd77552972f488bd4634d272ef",
+          "sha256": "6c13fc744f54d1cc23e5fe5967eeb06ff3e701cd77552972f488bd4634d272ef",
+          "previous_bundle_sha256": "6c13fc744f54d1cc23e5fe5967eeb06ff3e701cd77552972f488bd4634d272ef",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/noir-character-pipeline/agents/openai.yaml",
+          "path": "modules/curio/skills/noir-character-pipeline/agents/openai.yaml",
+          "source_sha256": "52df6a3c7291d6d0204d4e49633a6ee0231af544049056929d20686f087c4d73",
+          "sha256": "52df6a3c7291d6d0204d4e49633a6ee0231af544049056929d20686f087c4d73",
+          "previous_bundle_sha256": "52df6a3c7291d6d0204d4e49633a6ee0231af544049056929d20686f087c4d73",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/noir-character-pipeline/references/integration.md",
+          "path": "modules/curio/skills/noir-character-pipeline/references/integration.md",
+          "source_sha256": "cea9eee32ae660e0cadd36f88455da2ed0fa806610cc920b15a5cdc4ba83a0e2",
+          "sha256": "cea9eee32ae660e0cadd36f88455da2ed0fa806610cc920b15a5cdc4ba83a0e2",
+          "previous_bundle_sha256": "cea9eee32ae660e0cadd36f88455da2ed0fa806610cc920b15a5cdc4ba83a0e2",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/noir-character-pipeline/references/prompts.md",
+          "path": "modules/curio/skills/noir-character-pipeline/references/prompts.md",
+          "source_sha256": "9d2ab4e9c6f76ecd516e785ffc5f8a42f3999856642e1139113fc234e01f05e9",
+          "sha256": "9d2ab4e9c6f76ecd516e785ffc5f8a42f3999856642e1139113fc234e01f05e9",
+          "previous_bundle_sha256": "9d2ab4e9c6f76ecd516e785ffc5f8a42f3999856642e1139113fc234e01f05e9",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "skills/noir-character-pipeline/scripts/check_character_maps.py",
+          "path": "modules/curio/skills/noir-character-pipeline/scripts/check_character_maps.py",
+          "source_sha256": "8f4e9c10ef58b1446f94a0643b0851b4609c2a21a8ceda63de2c5ef735087179",
+          "sha256": "d769cede43dd9fb8f9b1f2ae1332c6da39c748bbd0898c39694fc8361958bc44",
+          "previous_bundle_sha256": "8f4e9c10ef58b1446f94a0643b0851b4609c2a21a8ceda63de2c5ef735087179",
+          "status": "modified"
+        },
+        {
+          "upstream_path": "LICENSE",
+          "path": "modules/curio/LICENSE",
+          "source_sha256": "b9122d92cdacd48860c9e87db2a78e815dceabb6e58e2be8087e237936e3ca39",
+          "sha256": "b9122d92cdacd48860c9e87db2a78e815dceabb6e58e2be8087e237936e3ca39",
+          "previous_bundle_sha256": "b9122d92cdacd48860c9e87db2a78e815dceabb6e58e2be8087e237936e3ca39",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "THIRD_PARTY_NOTICES.md",
+          "path": "modules/curio/THIRD_PARTY_NOTICES.md",
+          "source_sha256": "02554d551cc746466ca4d7d77ca3caaee78382d825dd1097055b0f14c5b8570f",
+          "sha256": "20795a50108cb8554e44649c3052da6283877b75511dbe9660dd70bad748901e",
+          "previous_bundle_sha256": "02554d551cc746466ca4d7d77ca3caaee78382d825dd1097055b0f14c5b8570f",
+          "status": "modified"
+        },
+        {
+          "upstream_path": "ASSET_NOTICE.md",
+          "path": "modules/curio/ASSET_NOTICE.md",
+          "source_sha256": "8ae08c27a15c23af63b467889ba36c7ab8a4fa582f23212fb6ea879231d83c63",
+          "sha256": "4ae4f93a3807ae6fbb51c9e16ba2e1feaa558b129ba06f8e6598cdef9237da35",
+          "previous_bundle_sha256": "8ae08c27a15c23af63b467889ba36c7ab8a4fa582f23212fb6ea879231d83c63",
+          "status": "modified"
+        },
+        {
+          "upstream_path": "requirements.txt",
+          "path": "modules/curio/requirements.txt",
+          "source_sha256": "57599c6a6fcc8891a291d26a7a74c4b73f65c10434e1ed1f2cde586f3ba071d1",
+          "sha256": "57599c6a6fcc8891a291d26a7a74c4b73f65c10434e1ed1f2cde586f3ba071d1",
+          "previous_bundle_sha256": "57599c6a6fcc8891a291d26a7a74c4b73f65c10434e1ed1f2cde586f3ba071d1",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "examples/badger-balance/README.md",
+          "path": "modules/curio/examples/badger-balance/README.md",
+          "source_sha256": "d968f17c42bce7b2dbd78bc743e9b0c1ea3e3f0aceb018ca685b8d410bbe075d",
+          "sha256": "b26343ad357d32a1efa3956c34b30e315c7129bc3697cab8371d183af38b6b22",
+          "previous_bundle_sha256": "208bedc93060afd98e6a052805ccf5dadffe1ce19c5222032453c55a4a64c09c",
+          "status": "modified"
+        },
+        {
+          "upstream_path": "examples/badger-balance/metrics.json",
+          "path": "modules/curio/examples/badger-balance/metrics.json",
+          "source_sha256": "326695bb3fddfbbf9abab2ab26bd85f5d13356aa93350c4f9f05aea23c2bb551",
+          "sha256": "326695bb3fddfbbf9abab2ab26bd85f5d13356aa93350c4f9f05aea23c2bb551",
+          "previous_bundle_sha256": "326695bb3fddfbbf9abab2ab26bd85f5d13356aa93350c4f9f05aea23c2bb551",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "examples/faceted-gems/README.md",
+          "path": "modules/curio/examples/faceted-gems/README.md",
+          "source_sha256": "c41e05f7a15736ca2fab8c682beccf04fd421152e2acdd5af66a264a397ffab8",
+          "sha256": "7d0f29fae6df83fb15a619eaa6f401d3e5e13527b0ff1b92674029e3c22bd02f",
+          "previous_bundle_sha256": "c41e05f7a15736ca2fab8c682beccf04fd421152e2acdd5af66a264a397ffab8",
+          "status": "modified"
+        },
+        {
+          "upstream_path": "examples/faceted-gems/metrics.json",
+          "path": "modules/curio/examples/faceted-gems/metrics.json",
+          "source_sha256": "c8d179874c709414bed476aa21302b1db98b481964409a30ddb39795320e3d93",
+          "sha256": "c8d179874c709414bed476aa21302b1db98b481964409a30ddb39795320e3d93",
+          "previous_bundle_sha256": "c8d179874c709414bed476aa21302b1db98b481964409a30ddb39795320e3d93",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "docs/usage.md",
+          "path": "modules/curio/docs/usage.md",
+          "source_sha256": "190571b75e349204176652ed862780e3fe337d1d4a4ad1222bd0b7a0d231b833",
+          "sha256": "b795f72e83a9bf7d7c73c1913ee74847782ca821a6a2aab933ecc09cd1d014b0",
+          "previous_bundle_sha256": "fbf5cfa1983d4c2b97bd2eaa1fbdbce8a2f5805d63ca7df535681d4cd56ae630",
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "repository": "https://github.com/RobLe3/cc-blender-skill",
+      "commit": "a2634b588e80265e796aa53f8ab178d75105c2af",
+      "files": [
+        {
+          "upstream_path": "LICENSE",
+          "path": "modules/cc-blender/LICENSE",
+          "source_sha256": "53551803e298669de282d339c7e85ae64e6fbf370d07ca08105d8e0a2d2fbf3d",
+          "sha256": "53551803e298669de282d339c7e85ae64e6fbf370d07ca08105d8e0a2d2fbf3d",
+          "previous_bundle_sha256": "53551803e298669de282d339c7e85ae64e6fbf370d07ca08105d8e0a2d2fbf3d",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "plugin/skills/blender-lighting/SKILL.md",
+          "path": "modules/cc-blender/plugin/skills/blender-lighting/GUIDE.md",
+          "source_sha256": "d7ff87caca03cb9ab0e7f7731a8753e5e0ca814b2862ae2bb91fc6b8e3cc2794",
+          "sha256": "b7bc5eff983d8e67e551454cef97b1bcef1ef717fa534f14009f507a6ca5caec",
+          "previous_bundle_sha256": "d7ff87caca03cb9ab0e7f7731a8753e5e0ca814b2862ae2bb91fc6b8e3cc2794",
+          "status": "modified"
+        },
+        {
+          "upstream_path": "plugin/skills/blender-lighting/evals/evals.json",
+          "path": "modules/cc-blender/plugin/skills/blender-lighting/evals/evals.json",
+          "source_sha256": "f45e6edb903f08e1ee0d8fe4d8b952b120d928efc4bc3d6f0ff24dfd162d0822",
+          "sha256": "f45e6edb903f08e1ee0d8fe4d8b952b120d928efc4bc3d6f0ff24dfd162d0822",
+          "previous_bundle_sha256": "f45e6edb903f08e1ee0d8fe4d8b952b120d928efc4bc3d6f0ff24dfd162d0822",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "plugin/skills/blender-lighting/references/overview.md",
+          "path": "modules/cc-blender/plugin/skills/blender-lighting/references/overview.md",
+          "source_sha256": "8f88c9123929fc6b3207ce2016729652971656c54250a094bf4cbffeea989eba",
+          "sha256": "cbef42fdb3a1329b2cb27ceba5280c49fe265e024a735c454924deb71bcc3329",
+          "previous_bundle_sha256": "8f88c9123929fc6b3207ce2016729652971656c54250a094bf4cbffeea989eba",
+          "status": "modified"
+        },
+        {
+          "upstream_path": "plugin/skills/blender-rendering/SKILL.md",
+          "path": "modules/cc-blender/plugin/skills/blender-rendering/GUIDE.md",
+          "source_sha256": "7699bab8a4e634d531c78bc4496837645c867c4070b4722a473fe6c180a29d70",
+          "sha256": "7699bab8a4e634d531c78bc4496837645c867c4070b4722a473fe6c180a29d70",
+          "previous_bundle_sha256": "7699bab8a4e634d531c78bc4496837645c867c4070b4722a473fe6c180a29d70",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "plugin/skills/blender-rendering/evals/evals.json",
+          "path": "modules/cc-blender/plugin/skills/blender-rendering/evals/evals.json",
+          "source_sha256": "a140f3e1df999f85993d91d624c39c260dc11165d32ba7dee9ae8671004ed0ae",
+          "sha256": "a140f3e1df999f85993d91d624c39c260dc11165d32ba7dee9ae8671004ed0ae",
+          "previous_bundle_sha256": "a140f3e1df999f85993d91d624c39c260dc11165d32ba7dee9ae8671004ed0ae",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "plugin/skills/blender-rendering/references/overview.md",
+          "path": "modules/cc-blender/plugin/skills/blender-rendering/references/overview.md",
+          "source_sha256": "5f467b6507e1e6f094d008e2d0533e1216714d2468abf0a4dcaea02157a3446f",
+          "sha256": "5f467b6507e1e6f094d008e2d0533e1216714d2468abf0a4dcaea02157a3446f",
+          "previous_bundle_sha256": "5f467b6507e1e6f094d008e2d0533e1216714d2468abf0a4dcaea02157a3446f",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "plugin/skills/reference-look-calibration/SKILL.md",
+          "path": "modules/cc-blender/plugin/skills/reference-look-calibration/GUIDE.md",
+          "source_sha256": "131e80e3d927f3a9e6295f75bfef249317680752c2254e3a3e3fb34c223a5b44",
+          "sha256": "2b5bdcf315b10bbd28f8b35248ef4798a13c92ef834a2d1f2eaad02a15c74a8f",
+          "previous_bundle_sha256": "131e80e3d927f3a9e6295f75bfef249317680752c2254e3a3e3fb34c223a5b44",
+          "status": "modified"
+        },
+        {
+          "upstream_path": "plugin/skills/reference-look-calibration/scripts/look_fit_report.py",
+          "path": "modules/cc-blender/plugin/skills/reference-look-calibration/scripts/look_fit_report.py",
+          "source_sha256": "6b1067d089d5580ddffb0409b503c4d453f827ef9d340abb47b486206d90202d",
+          "sha256": "69bd23cd6a1b687c7c9664158072b67683fabd415d6bf871e86a95b683604261",
+          "previous_bundle_sha256": "6b1067d089d5580ddffb0409b503c4d453f827ef9d340abb47b486206d90202d",
+          "status": "modified"
+        },
+        {
+          "upstream_path": "plugin/skills/text-to-blender/references/agent-hosts.md",
+          "path": "modules/cc-blender/plugin/skills/text-to-blender/references/agent-hosts.md",
+          "source_sha256": "7723a628497e2c2c80d58996553e92ac8fc606fbc57713e3a9546e974fd564f0",
+          "sha256": "2d535c126dab782a626f0cc8e48354ecfab2083e43e6fa936b7932594e765ddd",
+          "previous_bundle_sha256": "f3d878710c39f1bcdcd72530b412fd34d7ba2e10a27a6589176fa6112799bcfd",
+          "status": "modified"
+        },
+        {
+          "upstream_path": "plugin/skills/text-to-blender/references/assembly-order.md",
+          "path": "modules/cc-blender/plugin/skills/text-to-blender/references/assembly-order.md",
+          "source_sha256": "33676b36afb2b31207a8be32491a56ba9606fc35c7c843aa96d1428c4ec23777",
+          "sha256": "33676b36afb2b31207a8be32491a56ba9606fc35c7c843aa96d1428c4ec23777",
+          "previous_bundle_sha256": "33676b36afb2b31207a8be32491a56ba9606fc35c7c843aa96d1428c4ec23777",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "plugin/skills/text-to-blender/references/blender-version-compat.md",
+          "path": "modules/cc-blender/plugin/skills/text-to-blender/references/blender-version-compat.md",
+          "source_sha256": "88d70e06b7ef76ae415436ffec8283d032f87035cacd6a80477a0d3936468f37",
+          "sha256": "f2a48077c416a3ae527c0ae4f6f3e51f591e6950ea1a2026ed17eca9122ed66c",
+          "previous_bundle_sha256": "f2a48077c416a3ae527c0ae4f6f3e51f591e6950ea1a2026ed17eca9122ed66c",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "plugin/skills/text-to-blender/references/common-object-dimensions.md",
+          "path": "modules/cc-blender/plugin/skills/text-to-blender/references/common-object-dimensions.md",
+          "source_sha256": "07c2f16dea1375a9064d06dc5b3a999ce2c1e24418ee93878d21bea64698fc5d",
+          "sha256": "07c2f16dea1375a9064d06dc5b3a999ce2c1e24418ee93878d21bea64698fc5d",
+          "previous_bundle_sha256": "07c2f16dea1375a9064d06dc5b3a999ce2c1e24418ee93878d21bea64698fc5d",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "plugin/skills/text-to-blender/references/mcp-backends.md",
+          "path": "modules/cc-blender/plugin/skills/text-to-blender/references/mcp-backends.md",
+          "source_sha256": "7955a3ec4d33905379e006404271595f3195b4b4dd9f294d98606218221537a6",
+          "sha256": "7955a3ec4d33905379e006404271595f3195b4b4dd9f294d98606218221537a6",
+          "previous_bundle_sha256": "7955a3ec4d33905379e006404271595f3195b4b4dd9f294d98606218221537a6",
+          "status": "retained"
+        }
+      ]
+    },
+    {
+      "repository": "https://github.com/ifBars/blender-agent-studio",
+      "commit": "517bf73e8a0323272be715cbbb4f3b830102a8da",
+      "files": [
+        {
+          "upstream_path": "LICENSE",
+          "path": "modules/studio/LICENSE",
+          "source_sha256": "dc25474bd47c86e86e36f1a5b4cd42000c2ab5a2c5bfb09ec335787a8356e77b",
+          "sha256": "dc25474bd47c86e86e36f1a5b4cd42000c2ab5a2c5bfb09ec335787a8356e77b",
+          "previous_bundle_sha256": "dc25474bd47c86e86e36f1a5b4cd42000c2ab5a2c5bfb09ec335787a8356e77b",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "plugins/blender-agent-studio/skills/blender-rendering-workflow/SKILL.md",
+          "path": "modules/studio/plugins/blender-agent-studio/skills/blender-rendering-workflow/GUIDE.md",
+          "source_sha256": "97fe719d03698a0f862cb5884f91f70618265b7d5dbb64d2a94c48727d199b31",
+          "sha256": "b4c8137f053c69bc655af71b607cb2db7ee04a7cc02f1849fa1331ce545fcf00",
+          "previous_bundle_sha256": "97fe719d03698a0f862cb5884f91f70618265b7d5dbb64d2a94c48727d199b31",
+          "status": "modified"
+        },
+        {
+          "upstream_path": "plugins/blender-agent-studio/skills/blender-rendering-workflow/agents/openai.yaml",
+          "path": "modules/studio/plugins/blender-agent-studio/skills/blender-rendering-workflow/agents/openai.yaml",
+          "source_sha256": "bfbe52dbc14155d3627c674c4a8df436d58a2d4e27f52656b10ffabd7b9f627f",
+          "sha256": "bfbe52dbc14155d3627c674c4a8df436d58a2d4e27f52656b10ffabd7b9f627f",
+          "previous_bundle_sha256": "bfbe52dbc14155d3627c674c4a8df436d58a2d4e27f52656b10ffabd7b9f627f",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "plugins/blender-agent-studio/skills/blender-rendering-workflow/references/astra-workflow.md",
+          "path": "modules/studio/plugins/blender-agent-studio/skills/blender-rendering-workflow/references/astra-workflow.md",
+          "source_sha256": "193ae2cc3453bae4358f4f110da98e357c29756dbc03c663dcdb2c60a4a549cd",
+          "sha256": "193ae2cc3453bae4358f4f110da98e357c29756dbc03c663dcdb2c60a4a549cd",
+          "previous_bundle_sha256": "193ae2cc3453bae4358f4f110da98e357c29756dbc03c663dcdb2c60a4a549cd",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "plugins/blender-agent-studio/skills/blender-rendering-workflow/references/interiors-and-atmosphere.md",
+          "path": "modules/studio/plugins/blender-agent-studio/skills/blender-rendering-workflow/references/interiors-and-atmosphere.md",
+          "source_sha256": "dd1b9f5fb9e42d665845a2ce70ea7e2bc59506e18b849d0c52ac7cb07306ce62",
+          "sha256": "dd1b9f5fb9e42d665845a2ce70ea7e2bc59506e18b849d0c52ac7cb07306ce62",
+          "previous_bundle_sha256": "dd1b9f5fb9e42d665845a2ce70ea7e2bc59506e18b849d0c52ac7cb07306ce62",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "plugins/blender-agent-studio/skills/blender-rendering-workflow/references/modeling-timelapse.md",
+          "path": "modules/studio/plugins/blender-agent-studio/skills/blender-rendering-workflow/references/modeling-timelapse.md",
+          "source_sha256": "115bdf9e10733dfc5fd23c3893afd1e8ab40149bd26cdb11157ef44ae0849941",
+          "sha256": "a6fbdd0f3742b1e63ee82ce2b08753309090acaf7a9dff7ac1e8371d06f1d471",
+          "previous_bundle_sha256": "115bdf9e10733dfc5fd23c3893afd1e8ab40149bd26cdb11157ef44ae0849941",
+          "status": "modified"
+        },
+        {
+          "upstream_path": "plugins/blender-agent-studio/skills/blender-rendering-workflow/references/poly-haven-materials.md",
+          "path": "modules/studio/plugins/blender-agent-studio/skills/blender-rendering-workflow/references/poly-haven-materials.md",
+          "source_sha256": "2bbddf1bad3619fcbf94cae7e435c597e43fd5553125fa4167540d1f38772f75",
+          "sha256": "2bbddf1bad3619fcbf94cae7e435c597e43fd5553125fa4167540d1f38772f75",
+          "previous_bundle_sha256": "2bbddf1bad3619fcbf94cae7e435c597e43fd5553125fa4167540d1f38772f75",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "plugins/blender-agent-studio/skills/blender-rendering-workflow/scripts/fixture_modeling_timelapse.py",
+          "path": "modules/studio/plugins/blender-agent-studio/skills/blender-rendering-workflow/scripts/fixture_modeling_timelapse.py",
+          "source_sha256": "700d6b56e807092fe88d7e29d1fcf9ed7d09a9664910df389059e4b39d8651ed",
+          "sha256": "700d6b56e807092fe88d7e29d1fcf9ed7d09a9664910df389059e4b39d8651ed",
+          "previous_bundle_sha256": "700d6b56e807092fe88d7e29d1fcf9ed7d09a9664910df389059e4b39d8651ed",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "plugins/blender-agent-studio/skills/blender-rendering-workflow/scripts/modeling_timelapse.py",
+          "path": "modules/studio/plugins/blender-agent-studio/skills/blender-rendering-workflow/scripts/modeling_timelapse.py",
+          "source_sha256": "126122a6dbec0bdda43ac137928220f46a27ef41030a73346e12a57e25ee5f3e",
+          "sha256": "126122a6dbec0bdda43ac137928220f46a27ef41030a73346e12a57e25ee5f3e",
+          "previous_bundle_sha256": "126122a6dbec0bdda43ac137928220f46a27ef41030a73346e12a57e25ee5f3e",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "plugins/blender-agent-studio/skills/blender-rendering-workflow/scripts/poly-haven-cli.ts",
+          "path": "modules/studio/plugins/blender-agent-studio/skills/blender-rendering-workflow/scripts/poly-haven-cli.ts",
+          "source_sha256": "d288beae266dfbe623133f64aa3fb2d890a0f0ad8e194bf9c2002948964bc9d7",
+          "sha256": "d288beae266dfbe623133f64aa3fb2d890a0f0ad8e194bf9c2002948964bc9d7",
+          "previous_bundle_sha256": "d288beae266dfbe623133f64aa3fb2d890a0f0ad8e194bf9c2002948964bc9d7",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "plugins/blender-agent-studio/skills/blender-rendering-workflow/scripts/poly-haven.ts",
+          "path": "modules/studio/plugins/blender-agent-studio/skills/blender-rendering-workflow/scripts/poly-haven.ts",
+          "source_sha256": "94b5cc60dd1dfd9508d1c8010f7b1872393b3f5beece683fcfe7dc2deb5fbb5f",
+          "sha256": "d9f08e99543aea148ad24614cb76b576ae989d3bcc67a104ea6e6db59be1472f",
+          "previous_bundle_sha256": "94b5cc60dd1dfd9508d1c8010f7b1872393b3f5beece683fcfe7dc2deb5fbb5f",
+          "status": "modified"
+        },
+        {
+          "upstream_path": "plugins/blender-agent-studio/skills/blender-rendering-workflow/scripts/render_authored_evidence.py",
+          "path": "modules/studio/plugins/blender-agent-studio/skills/blender-rendering-workflow/scripts/render_authored_evidence.py",
+          "source_sha256": "dde8afe30fe8256ba3f0e2da9b3bf1437862628ebc0f939ef0ff23538cffbcfa",
+          "sha256": "dde8afe30fe8256ba3f0e2da9b3bf1437862628ebc0f939ef0ff23538cffbcfa",
+          "previous_bundle_sha256": "dde8afe30fe8256ba3f0e2da9b3bf1437862628ebc0f939ef0ff23538cffbcfa",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "plugins/blender-agent-studio/skills/blender-rendering-workflow/scripts/render_scene.py",
+          "path": "modules/studio/plugins/blender-agent-studio/skills/blender-rendering-workflow/scripts/render_scene.py",
+          "source_sha256": "e688d3366271d8f8ad9bff70559b2e844cf79602fbb3a11d4a88205996f4719c",
+          "sha256": "e688d3366271d8f8ad9bff70559b2e844cf79602fbb3a11d4a88205996f4719c",
+          "previous_bundle_sha256": "e688d3366271d8f8ad9bff70559b2e844cf79602fbb3a11d4a88205996f4719c",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "plugins/blender-agent-studio/skills/blender-rendering-workflow/scripts/render_timelapse.py",
+          "path": "modules/studio/plugins/blender-agent-studio/skills/blender-rendering-workflow/scripts/render_timelapse.py",
+          "source_sha256": "62a7c2992b98fe0a92a103c96be614a110a2ace1e488b6fd8cbc1217d6d21f35",
+          "sha256": "62a7c2992b98fe0a92a103c96be614a110a2ace1e488b6fd8cbc1217d6d21f35",
+          "previous_bundle_sha256": "62a7c2992b98fe0a92a103c96be614a110a2ace1e488b6fd8cbc1217d6d21f35",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "plugins/blender-agent-studio/skills/blender-rendering-workflow/scripts/test_denoise_policy.py",
+          "path": "modules/studio/plugins/blender-agent-studio/skills/blender-rendering-workflow/scripts/test_denoise_policy.py",
+          "source_sha256": "3a540485ed273fea4e33a9cc7ad4181ebf1e413e0b7284db0967ada486be2da4",
+          "sha256": "3a540485ed273fea4e33a9cc7ad4181ebf1e413e0b7284db0967ada486be2da4",
+          "previous_bundle_sha256": "3a540485ed273fea4e33a9cc7ad4181ebf1e413e0b7284db0967ada486be2da4",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "plugins/blender-agent-studio/skills/blender-rendering-workflow/scripts/test_modeling_timelapse.py",
+          "path": "modules/studio/plugins/blender-agent-studio/skills/blender-rendering-workflow/scripts/test_modeling_timelapse.py",
+          "source_sha256": "7edc5acc2d26d5f1c3d675fa2699651716ec37e5980613ba308d22528bf56fba",
+          "sha256": "7edc5acc2d26d5f1c3d675fa2699651716ec37e5980613ba308d22528bf56fba",
+          "previous_bundle_sha256": "7edc5acc2d26d5f1c3d675fa2699651716ec37e5980613ba308d22528bf56fba",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "plugins/blender-agent-studio/skills/blender-rendering-workflow/scripts/test_render_scene.py",
+          "path": "modules/studio/plugins/blender-agent-studio/skills/blender-rendering-workflow/scripts/test_render_scene.py",
+          "source_sha256": "0c74f42e82a9ba8181b75358e1b40f6d16dab55e50d1524dbef667263c90ec47",
+          "sha256": "0c74f42e82a9ba8181b75358e1b40f6d16dab55e50d1524dbef667263c90ec47",
+          "previous_bundle_sha256": "0c74f42e82a9ba8181b75358e1b40f6d16dab55e50d1524dbef667263c90ec47",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "plugins/blender-agent-studio/skills/blender-signage-workflow/references/astra-workflow.md",
+          "path": "modules/studio/plugins/blender-agent-studio/skills/blender-signage-workflow/references/astra-workflow.md",
+          "source_sha256": "193ae2cc3453bae4358f4f110da98e357c29756dbc03c663dcdb2c60a4a549cd",
+          "sha256": "193ae2cc3453bae4358f4f110da98e357c29756dbc03c663dcdb2c60a4a549cd",
+          "previous_bundle_sha256": "193ae2cc3453bae4358f4f110da98e357c29756dbc03c663dcdb2c60a4a549cd",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "plugins/blender-agent-studio/skills/blender-signage-workflow/references/face-spec.md",
+          "path": "modules/studio/plugins/blender-agent-studio/skills/blender-signage-workflow/references/face-spec.md",
+          "source_sha256": "e640a853938016f686b0762ba3108f9af373af2935d4b8fdbd426788d0b2ad90",
+          "sha256": "e640a853938016f686b0762ba3108f9af373af2935d4b8fdbd426788d0b2ad90",
+          "previous_bundle_sha256": "e640a853938016f686b0762ba3108f9af373af2935d4b8fdbd426788d0b2ad90",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "plugins/blender-agent-studio/skills/blender-signage-workflow/references/surface-integration.md",
+          "path": "modules/studio/plugins/blender-agent-studio/skills/blender-signage-workflow/references/surface-integration.md",
+          "source_sha256": "946547b05dcf6cc13ca71301a5d5a84b09c8fd1b39220503c7909ee7249c7858",
+          "sha256": "946547b05dcf6cc13ca71301a5d5a84b09c8fd1b39220503c7909ee7249c7858",
+          "previous_bundle_sha256": "946547b05dcf6cc13ca71301a5d5a84b09c8fd1b39220503c7909ee7249c7858",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "plugins/blender-agent-studio/skills/blender-modeling-workflow/references/astra-workflow.md",
+          "path": "modules/studio/plugins/blender-agent-studio/skills/blender-modeling-workflow/references/astra-workflow.md",
+          "source_sha256": "193ae2cc3453bae4358f4f110da98e357c29756dbc03c663dcdb2c60a4a549cd",
+          "sha256": "193ae2cc3453bae4358f4f110da98e357c29756dbc03c663dcdb2c60a4a549cd",
+          "previous_bundle_sha256": "193ae2cc3453bae4358f4f110da98e357c29756dbc03c663dcdb2c60a4a549cd",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "plugins/blender-agent-studio/skills/blender-modeling-workflow/references/image-to-3d.md",
+          "path": "modules/studio/plugins/blender-agent-studio/skills/blender-modeling-workflow/references/image-to-3d.md",
+          "source_sha256": "7db30029c24f82c9d519958093f2b6e0d68cb7fbd7561f146d6c8309c1569995",
+          "sha256": "7db30029c24f82c9d519958093f2b6e0d68cb7fbd7561f146d6c8309c1569995",
+          "previous_bundle_sha256": "7db30029c24f82c9d519958093f2b6e0d68cb7fbd7561f146d6c8309c1569995",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "plugins/blender-agent-studio/skills/blender-modeling-workflow/references/modeling-contract.md",
+          "path": "modules/studio/plugins/blender-agent-studio/skills/blender-modeling-workflow/references/modeling-contract.md",
+          "source_sha256": "c8f8964802091de878cb26568ff945363e322d06f16347ab333f95a4193e2748",
+          "sha256": "c8f8964802091de878cb26568ff945363e322d06f16347ab333f95a4193e2748",
+          "previous_bundle_sha256": "c8f8964802091de878cb26568ff945363e322d06f16347ab333f95a4193e2748",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "plugins/blender-agent-studio/skills/blender-modeling-workflow/references/procedural-patterns.md",
+          "path": "modules/studio/plugins/blender-agent-studio/skills/blender-modeling-workflow/references/procedural-patterns.md",
+          "source_sha256": "79fabfe07fc30647b4bf94966dd17523f2969b69a09e07c728139ceabe0704ff",
+          "sha256": "79fabfe07fc30647b4bf94966dd17523f2969b69a09e07c728139ceabe0704ff",
+          "previous_bundle_sha256": "79fabfe07fc30647b4bf94966dd17523f2969b69a09e07c728139ceabe0704ff",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "plugins/blender-agent-studio/skills/blender-modeling-workflow/references/staged-quality-workflow.md",
+          "path": "modules/studio/plugins/blender-agent-studio/skills/blender-modeling-workflow/references/staged-quality-workflow.md",
+          "source_sha256": "d772f4c122c28de847ecc70b7e8784ae849ceb0535ddfae30c7666926fa8a747",
+          "sha256": "d772f4c122c28de847ecc70b7e8784ae849ceb0535ddfae30c7666926fa8a747",
+          "previous_bundle_sha256": "d772f4c122c28de847ecc70b7e8784ae849ceb0535ddfae30c7666926fa8a747",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "plugins/blender-agent-studio/skills/blender-modeling-workflow/references/whole-scene-workflow.md",
+          "path": "modules/studio/plugins/blender-agent-studio/skills/blender-modeling-workflow/references/whole-scene-workflow.md",
+          "source_sha256": "245203852f56532cfaccc21903a8f0f085e3643f1e6e0315d9cdc79a7027ac1b",
+          "sha256": "245203852f56532cfaccc21903a8f0f085e3643f1e6e0315d9cdc79a7027ac1b",
+          "previous_bundle_sha256": "245203852f56532cfaccc21903a8f0f085e3643f1e6e0315d9cdc79a7027ac1b",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "plugins/blender-agent-studio/references/astra-workflow.md",
+          "path": "modules/studio/plugins/blender-agent-studio/references/astra-workflow.md",
+          "source_sha256": "193ae2cc3453bae4358f4f110da98e357c29756dbc03c663dcdb2c60a4a549cd",
+          "sha256": "193ae2cc3453bae4358f4f110da98e357c29756dbc03c663dcdb2c60a4a549cd",
+          "previous_bundle_sha256": "193ae2cc3453bae4358f4f110da98e357c29756dbc03c663dcdb2c60a4a549cd",
+          "status": "retained"
+        }
+      ]
+    },
+    {
+      "repository": "https://github.com/capybala18/capybala-bpy-skill",
+      "commit": "adf82478d3766da94ecdc6c01dabcca82cb4cc4d",
+      "files": [
+        {
+          "upstream_path": "LICENSE",
+          "path": "modules/bpy/LICENSE",
+          "source_sha256": "c9a730b9a6588941493362686f0a9f3a3b38aaacfe703fa14c73759291664faf",
+          "sha256": "c9a730b9a6588941493362686f0a9f3a3b38aaacfe703fa14c73759291664faf",
+          "previous_bundle_sha256": "c9a730b9a6588941493362686f0a9f3a3b38aaacfe703fa14c73759291664faf",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "SKILL.md",
+          "path": "modules/bpy/GUIDE.md",
+          "source_sha256": "527e9de2d83ffa153985393c77d7a8fe88913bd26b521e365af2575cc8067880",
+          "sha256": "19771180293e9b5ee857469732e106d8ce364ca17ffcf806c8bcb2a0e6815fb2",
+          "previous_bundle_sha256": "d5ce9d5868d9c02f46497cf326d75c8aa55fd91fb7f414d7484f49bbaaa63412",
+          "status": "modified"
+        },
+        {
+          "upstream_path": "assets/anatomy/_TEMPLATE.md",
+          "path": "modules/bpy/assets/anatomy/_TEMPLATE.md",
+          "source_sha256": "ac0c39e059d7f60c57064a2960dc3c5cc636daf4cabb5bdc6ee969e2f8b2a055",
+          "sha256": "ac0c39e059d7f60c57064a2960dc3c5cc636daf4cabb5bdc6ee969e2f8b2a055",
+          "previous_bundle_sha256": "ac0c39e059d7f60c57064a2960dc3c5cc636daf4cabb5bdc6ee969e2f8b2a055",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "assets/anatomy/buildings/_INDEX.md",
+          "path": "modules/bpy/assets/anatomy/buildings/_INDEX.md",
+          "source_sha256": "f5ffb6e8eb123ad46f1b9294d3271fd045f7250d7a646b723844d80a3126f564",
+          "sha256": "f5ffb6e8eb123ad46f1b9294d3271fd045f7250d7a646b723844d80a3126f564",
+          "previous_bundle_sha256": "f5ffb6e8eb123ad46f1b9294d3271fd045f7250d7a646b723844d80a3126f564",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "assets/anatomy/buildings/european.md",
+          "path": "modules/bpy/assets/anatomy/buildings/european.md",
+          "source_sha256": "d0eb0dd474a2df6efafbf7ef065dec3b717d3f1023aefe96cde702a6e439fef5",
+          "sha256": "d0eb0dd474a2df6efafbf7ef065dec3b717d3f1023aefe96cde702a6e439fef5",
+          "previous_bundle_sha256": "d0eb0dd474a2df6efafbf7ef065dec3b717d3f1023aefe96cde702a6e439fef5",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "assets/anatomy/buildings/flagship_hq.md",
+          "path": "modules/bpy/assets/anatomy/buildings/flagship_hq.md",
+          "source_sha256": "db2758162b98bc3561532d41a5b8f544020111cd4c60bf680e843b7d94b36282",
+          "sha256": "db2758162b98bc3561532d41a5b8f544020111cd4c60bf680e843b7d94b36282",
+          "previous_bundle_sha256": "db2758162b98bc3561532d41a5b8f544020111cd4c60bf680e843b7d94b36282",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "assets/anatomy/buildings/japanese_house.md",
+          "path": "modules/bpy/assets/anatomy/buildings/japanese_house.md",
+          "source_sha256": "f3c0edbc416c5cde9b1bbc52707b712a8fe4280a7546506e04f5e96284b043b4",
+          "sha256": "f3c0edbc416c5cde9b1bbc52707b712a8fe4280a7546506e04f5e96284b043b4",
+          "previous_bundle_sha256": "f3c0edbc416c5cde9b1bbc52707b712a8fe4280a7546506e04f5e96284b043b4",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "assets/anatomy/buildings/office.md",
+          "path": "modules/bpy/assets/anatomy/buildings/office.md",
+          "source_sha256": "560d2b2657d154b8c26167edcf54168a274638bd6e0d3986f63399f8b42cbde7",
+          "sha256": "560d2b2657d154b8c26167edcf54168a274638bd6e0d3986f63399f8b42cbde7",
+          "previous_bundle_sha256": "560d2b2657d154b8c26167edcf54168a274638bd6e0d3986f63399f8b42cbde7",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "assets/anatomy/buildings/residential.md",
+          "path": "modules/bpy/assets/anatomy/buildings/residential.md",
+          "source_sha256": "ef1af6b3c65ddfa18070320db21f08900b03677ec2d8dfba7a1b1d0d637c5c5c",
+          "sha256": "ef1af6b3c65ddfa18070320db21f08900b03677ec2d8dfba7a1b1d0d637c5c5c",
+          "previous_bundle_sha256": "ef1af6b3c65ddfa18070320db21f08900b03677ec2d8dfba7a1b1d0d637c5c5c",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "assets/anatomy/camera.md",
+          "path": "modules/bpy/assets/anatomy/camera.md",
+          "source_sha256": "13f883a76172bd6d0bad1fd785e08f72c462fd33b5fcbe06db9741f0bddb52d0",
+          "sha256": "13f883a76172bd6d0bad1fd785e08f72c462fd33b5fcbe06db9741f0bddb52d0",
+          "previous_bundle_sha256": "13f883a76172bd6d0bad1fd785e08f72c462fd33b5fcbe06db9741f0bddb52d0",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "assets/anatomy/car.md",
+          "path": "modules/bpy/assets/anatomy/car.md",
+          "source_sha256": "7b1a1c09155e8acdef4836352dad53922d1270a15a8c7957f410e985e0efdb49",
+          "sha256": "7b1a1c09155e8acdef4836352dad53922d1270a15a8c7957f410e985e0efdb49",
+          "previous_bundle_sha256": "7b1a1c09155e8acdef4836352dad53922d1270a15a8c7957f410e985e0efdb49",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "assets/anatomy/fan.md",
+          "path": "modules/bpy/assets/anatomy/fan.md",
+          "source_sha256": "d74ee82a339b9382ab0df237d38f89dc5298982f983d159836c11fc58caaa049",
+          "sha256": "f3fb58c383c08d37391096ff3ca4bdfd685c959dd5754db01cf9d53b6c066610",
+          "previous_bundle_sha256": "f3fb58c383c08d37391096ff3ca4bdfd685c959dd5754db01cf9d53b6c066610",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "assets/anatomy/spaces/_TEMPLATE.md",
+          "path": "modules/bpy/assets/anatomy/spaces/_TEMPLATE.md",
+          "source_sha256": "2f2a516780bf665b86ab0e4fa24a1ae3158d411ba46a8393e07d7e0d1f3f33d2",
+          "sha256": "2f2a516780bf665b86ab0e4fa24a1ae3158d411ba46a8393e07d7e0d1f3f33d2",
+          "previous_bundle_sha256": "2f2a516780bf665b86ab0e4fa24a1ae3158d411ba46a8393e07d7e0d1f3f33d2",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "assets/anatomy/spaces/classroom.md",
+          "path": "modules/bpy/assets/anatomy/spaces/classroom.md",
+          "source_sha256": "f8a6b9d6e24f476a3f875f2994331a0d686de671fba84ac231b42f8aa7b50945",
+          "sha256": "f8a6b9d6e24f476a3f875f2994331a0d686de671fba84ac231b42f8aa7b50945",
+          "previous_bundle_sha256": "f8a6b9d6e24f476a3f875f2994331a0d686de671fba84ac231b42f8aa7b50945",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "assets/anatomy/spaces/japanese_street.md",
+          "path": "modules/bpy/assets/anatomy/spaces/japanese_street.md",
+          "source_sha256": "71f612cb98aa7c9b269a517567b2c45832284fe04c0caa2851865671ee72322a",
+          "sha256": "71f612cb98aa7c9b269a517567b2c45832284fe04c0caa2851865671ee72322a",
+          "previous_bundle_sha256": "71f612cb98aa7c9b269a517567b2c45832284fe04c0caa2851865671ee72322a",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "assets/anatomy/vessel.md",
+          "path": "modules/bpy/assets/anatomy/vessel.md",
+          "source_sha256": "8cb8ab47e705a0b9e5a66286d1de24b7bc9f876350ae75c67b184b266d65e299",
+          "sha256": "8cb8ab47e705a0b9e5a66286d1de24b7bc9f876350ae75c67b184b266d65e299",
+          "previous_bundle_sha256": "8cb8ab47e705a0b9e5a66286d1de24b7bc9f876350ae75c67b184b266d65e299",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "assets/anatomy/watch.md",
+          "path": "modules/bpy/assets/anatomy/watch.md",
+          "source_sha256": "74f378b9da9241e63e68d303812ee2dc427f958165c92bd044bbe8f79073a6d9",
+          "sha256": "90a3a93747ff1349c5227c0eb6dd91dfa3087f73db75027145dc60446afc053d",
+          "previous_bundle_sha256": "90a3a93747ff1349c5227c0eb6dd91dfa3087f73db75027145dc60446afc053d",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "assets/asset_fetch_lib.py",
+          "path": "modules/bpy/assets/asset_fetch_lib.py",
+          "source_sha256": "f1248d8c13708fa4fa35b7d4b20ddacd14288402405aa2ae229f07d3ff831873",
+          "sha256": "e0c65f3c999916baa247b5d787dbdc6d33bed3692710fafb90841c9920c5981e",
+          "previous_bundle_sha256": "f1248d8c13708fa4fa35b7d4b20ddacd14288402405aa2ae229f07d3ff831873",
+          "status": "modified"
+        },
+        {
+          "upstream_path": "assets/blueprint_lib.py",
+          "path": "modules/bpy/assets/blueprint_lib.py",
+          "source_sha256": "1c86a70e967eff33ecf8922331f9db02aa4e0efcdf4f07ebeaf90267236f9f00",
+          "sha256": "1c86a70e967eff33ecf8922331f9db02aa4e0efcdf4f07ebeaf90267236f9f00",
+          "previous_bundle_sha256": "1c86a70e967eff33ecf8922331f9db02aa4e0efcdf4f07ebeaf90267236f9f00",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "assets/build_template.py",
+          "path": "modules/bpy/assets/build_template.py",
+          "source_sha256": "52bbc2212552518a19d5c039f7fa4fa54df879a116ddd02af7d4e6a92555907a",
+          "sha256": "adf3ca2c0aedbdb7f2e4235859f09bb8890432c992bf72ae6c7d9d05ddf61a8b",
+          "previous_bundle_sha256": "52bbc2212552518a19d5c039f7fa4fa54df879a116ddd02af7d4e6a92555907a",
+          "status": "modified"
+        },
+        {
+          "upstream_path": "assets/building_lib.py",
+          "path": "modules/bpy/assets/building_lib.py",
+          "source_sha256": "7d70a123022940b03532843884fa89365604dbe41a8874337bda931ce5e1dcca",
+          "sha256": "7d70a123022940b03532843884fa89365604dbe41a8874337bda931ce5e1dcca",
+          "previous_bundle_sha256": "7d70a123022940b03532843884fa89365604dbe41a8874337bda931ce5e1dcca",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "assets/component_lib.py",
+          "path": "modules/bpy/assets/component_lib.py",
+          "source_sha256": "345799c712d6f22b592ede043e3f3c8f99d061978d427cc2601f2973979e073e",
+          "sha256": "345799c712d6f22b592ede043e3f3c8f99d061978d427cc2601f2973979e073e",
+          "previous_bundle_sha256": "345799c712d6f22b592ede043e3f3c8f99d061978d427cc2601f2973979e073e",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "assets/component_measure.py",
+          "path": "modules/bpy/assets/component_measure.py",
+          "source_sha256": "6cce88a33f0b0b5c70dedd3d54e1b8c5dbe68d1c0d8f3c8b7eaa425792ab13af",
+          "sha256": "402670320a51e5f07d412e6f8d9edcff2fb59a33529fdf6a23b1fe4b07415099",
+          "previous_bundle_sha256": "6cce88a33f0b0b5c70dedd3d54e1b8c5dbe68d1c0d8f3c8b7eaa425792ab13af",
+          "status": "modified"
+        },
+        {
+          "upstream_path": "assets/detail_lib.py",
+          "path": "modules/bpy/assets/detail_lib.py",
+          "source_sha256": "eec2880667601315af3e95a1c0fc65ae1b36b18bed3f6fbc31b0c5a0263152e0",
+          "sha256": "eec2880667601315af3e95a1c0fc65ae1b36b18bed3f6fbc31b0c5a0263152e0",
+          "previous_bundle_sha256": "eec2880667601315af3e95a1c0fc65ae1b36b18bed3f6fbc31b0c5a0263152e0",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "assets/examples/_INDEX.md",
+          "path": "modules/bpy/assets/examples/_INDEX.md",
+          "source_sha256": "e7a84184845890c6f457bf679b745b0e5ed79bd18baa6c5d4baa351e9bfca817",
+          "sha256": "9bf735dce051b534b38c7af572f9ec2c97897976a256e36f52a94dba9dc28221",
+          "previous_bundle_sha256": "9bf735dce051b534b38c7af572f9ec2c97897976a256e36f52a94dba9dc28221",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "assets/examples/_TEMPLATE.md",
+          "path": "modules/bpy/assets/examples/_TEMPLATE.md",
+          "source_sha256": "8d19459a3888342c55fc9c7b2dcd7a79ee3e632c59fa97316dbde10074e2e390",
+          "sha256": "fe1ca85768e0b0926992e08743df02828f101a11854b572f2f36936bf3e5eb90",
+          "previous_bundle_sha256": "fe1ca85768e0b0926992e08743df02828f101a11854b572f2f36936bf3e5eb90",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "assets/examples/building.md",
+          "path": "modules/bpy/assets/examples/building.md",
+          "source_sha256": "93eec6359e87bde31fa90398b031f4f1bd9c455fc0287ea98e2799e4f4a71927",
+          "sha256": "93eec6359e87bde31fa90398b031f4f1bd9c455fc0287ea98e2799e4f4a71927",
+          "previous_bundle_sha256": "93eec6359e87bde31fa90398b031f4f1bd9c455fc0287ea98e2799e4f4a71927",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "assets/examples/car.md",
+          "path": "modules/bpy/assets/examples/car.md",
+          "source_sha256": "b5c090db55b8d0a7e71eaf56407eee4784ef7d60a8d210734a5da67396c2a26f",
+          "sha256": "9c5bc53b1d211cc918af8719aebb2a0d84d36ef2e5c49d95eba1f5b9e25702c3",
+          "previous_bundle_sha256": "9c5bc53b1d211cc918af8719aebb2a0d84d36ef2e5c49d95eba1f5b9e25702c3",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "assets/examples/road.md",
+          "path": "modules/bpy/assets/examples/road.md",
+          "source_sha256": "586c915fc2c2902cd793d513883e24e83ddbf24cc032e8e102f42d0f86a0a7fa",
+          "sha256": "586c915fc2c2902cd793d513883e24e83ddbf24cc032e8e102f42d0f86a0a7fa",
+          "previous_bundle_sha256": "586c915fc2c2902cd793d513883e24e83ddbf24cc032e8e102f42d0f86a0a7fa",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "assets/examples/space_scene.md",
+          "path": "modules/bpy/assets/examples/space_scene.md",
+          "source_sha256": "524bc4255c3558aad3b09239ecc4fadfe415373d40c8bfa29bcd477dd6c7176b",
+          "sha256": "ab86e6cec10e2a4728abe89fd90623f1fb801ae1d102b92325ac9507f22e6c97",
+          "previous_bundle_sha256": "ab86e6cec10e2a4728abe89fd90623f1fb801ae1d102b92325ac9507f22e6c97",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "assets/examples/triview_reconstruction.md",
+          "path": "modules/bpy/assets/examples/triview_reconstruction.md",
+          "source_sha256": "48249179d0c068efc5f93033d59ed415f05a377669cca4d654ff9c6ae50127eb",
+          "sha256": "43019895630e50e7f60caa19a33a1175bc3ac4240f84bfcfdd47870a73806a22",
+          "previous_bundle_sha256": "43019895630e50e7f60caa19a33a1175bc3ac4240f84bfcfdd47870a73806a22",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "assets/find_blender.ps1",
+          "path": "modules/bpy/assets/find_blender.ps1",
+          "source_sha256": "000ec33e292953969ed22640a1325f721a16c2f893aab3d228a06dd7797e79df",
+          "sha256": "000ec33e292953969ed22640a1325f721a16c2f893aab3d228a06dd7797e79df",
+          "previous_bundle_sha256": "000ec33e292953969ed22640a1325f721a16c2f893aab3d228a06dd7797e79df",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "assets/geonodes_lib.py",
+          "path": "modules/bpy/assets/geonodes_lib.py",
+          "source_sha256": "61897f20a17da87698af0669779bba298d9d27e44069e85564b66e34fd206deb",
+          "sha256": "61897f20a17da87698af0669779bba298d9d27e44069e85564b66e34fd206deb",
+          "previous_bundle_sha256": "61897f20a17da87698af0669779bba298d9d27e44069e85564b66e34fd206deb",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "assets/mat_lib.py",
+          "path": "modules/bpy/assets/mat_lib.py",
+          "source_sha256": "87a6b822c45fc5d3d70c3d782161afca720527739f669dc7627a7ee48e8506f4",
+          "sha256": "87a6b822c45fc5d3d70c3d782161afca720527739f669dc7627a7ee48e8506f4",
+          "previous_bundle_sha256": "87a6b822c45fc5d3d70c3d782161afca720527739f669dc7627a7ee48e8506f4",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "assets/nature_lib.py",
+          "path": "modules/bpy/assets/nature_lib.py",
+          "source_sha256": "c86a8dee0c101bdc872a3a73c3810826560306e4ea1fe36178bb953729fb1c4b",
+          "sha256": "cce3995e30e8a9af614b22d2a7758c407208b0d44040f1efeb98cf3fd7890c33",
+          "previous_bundle_sha256": "c86a8dee0c101bdc872a3a73c3810826560306e4ea1fe36178bb953729fb1c4b",
+          "status": "modified"
+        },
+        {
+          "upstream_path": "assets/overlay_tools.py",
+          "path": "modules/bpy/assets/overlay_tools.py",
+          "source_sha256": "b6930a7dc7bab56cf6b9c476f758110a344c468b11b7c3c1f8dc703aff223c95",
+          "sha256": "b6930a7dc7bab56cf6b9c476f758110a344c468b11b7c3c1f8dc703aff223c95",
+          "previous_bundle_sha256": "b6930a7dc7bab56cf6b9c476f758110a344c468b11b7c3c1f8dc703aff223c95",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "assets/proportions_lib.py",
+          "path": "modules/bpy/assets/proportions_lib.py",
+          "source_sha256": "52fe3fac0b1bdc6b7fa374ae432720f5ad6c2f1d8baefdf1833c3a80e3cdc1a1",
+          "sha256": "52fe3fac0b1bdc6b7fa374ae432720f5ad6c2f1d8baefdf1833c3a80e3cdc1a1",
+          "previous_bundle_sha256": "52fe3fac0b1bdc6b7fa374ae432720f5ad6c2f1d8baefdf1833c3a80e3cdc1a1",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "assets/road_lib.py",
+          "path": "modules/bpy/assets/road_lib.py",
+          "source_sha256": "a1191b0f4914031e0fcd68a027b959d64cbb3dc8d64fc95996e2fb8c18f9be3a",
+          "sha256": "a1191b0f4914031e0fcd68a027b959d64cbb3dc8d64fc95996e2fb8c18f9be3a",
+          "previous_bundle_sha256": "a1191b0f4914031e0fcd68a027b959d64cbb3dc8d64fc95996e2fb8c18f9be3a",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "assets/scene_pkg/assertions.py",
+          "path": "modules/bpy/assets/scene_pkg/assertions.py",
+          "source_sha256": "a75fcfdac8994a25f6283a8f6e2946d815affc4e4663c5198cb0d9abc09d951e",
+          "sha256": "a75fcfdac8994a25f6283a8f6e2946d815affc4e4663c5198cb0d9abc09d951e",
+          "previous_bundle_sha256": "a75fcfdac8994a25f6283a8f6e2946d815affc4e4663c5198cb0d9abc09d951e",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "assets/scene_pkg/build.py",
+          "path": "modules/bpy/assets/scene_pkg/build.py",
+          "source_sha256": "dbc77c321dce467f6ec5b0e6ba935af67067c76c6316eddd2e45b13244b0cc3c",
+          "sha256": "dbc77c321dce467f6ec5b0e6ba935af67067c76c6316eddd2e45b13244b0cc3c",
+          "previous_bundle_sha256": "dbc77c321dce467f6ec5b0e6ba935af67067c76c6316eddd2e45b13244b0cc3c",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "assets/scene_pkg/components.json",
+          "path": "modules/bpy/assets/scene_pkg/components.json",
+          "source_sha256": "88ca92f9f66e9ae26618be36f612e9062df7a190f8bf7cf3a5147b9e9f266b39",
+          "sha256": "88ca92f9f66e9ae26618be36f612e9062df7a190f8bf7cf3a5147b9e9f266b39",
+          "previous_bundle_sha256": "88ca92f9f66e9ae26618be36f612e9062df7a190f8bf7cf3a5147b9e9f266b39",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "assets/scene_pkg/config.py",
+          "path": "modules/bpy/assets/scene_pkg/config.py",
+          "source_sha256": "8fb8b6bcda62dfd90a38944cb45bee3b3337ef52e31870db8dd34f07bcb09b3e",
+          "sha256": "8fb8b6bcda62dfd90a38944cb45bee3b3337ef52e31870db8dd34f07bcb09b3e",
+          "previous_bundle_sha256": "8fb8b6bcda62dfd90a38944cb45bee3b3337ef52e31870db8dd34f07bcb09b3e",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "assets/scene_pkg/geometry.py",
+          "path": "modules/bpy/assets/scene_pkg/geometry.py",
+          "source_sha256": "95cc4f199924e264d3617051cdb46323168fa3396759f4e0894aaf7d364492ea",
+          "sha256": "95cc4f199924e264d3617051cdb46323168fa3396759f4e0894aaf7d364492ea",
+          "previous_bundle_sha256": "95cc4f199924e264d3617051cdb46323168fa3396759f4e0894aaf7d364492ea",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "assets/scene_pkg/inspect.py",
+          "path": "modules/bpy/assets/scene_pkg/inspect.py",
+          "source_sha256": "16efa1606819f14fe792076f0b495747847f440eea736833387f5b8e80cc0867",
+          "sha256": "86c40d995922afc5268759d0d7016b31b1a2a4af443827dac0beb5fd73c1a028",
+          "previous_bundle_sha256": "16efa1606819f14fe792076f0b495747847f440eea736833387f5b8e80cc0867",
+          "status": "modified"
+        },
+        {
+          "upstream_path": "assets/scene_pkg/layout.py",
+          "path": "modules/bpy/assets/scene_pkg/layout.py",
+          "source_sha256": "ba3752ca10fab8cffe0a793edc62dea5c987e46bc50520838e90693d00178ab9",
+          "sha256": "ba3752ca10fab8cffe0a793edc62dea5c987e46bc50520838e90693d00178ab9",
+          "previous_bundle_sha256": "ba3752ca10fab8cffe0a793edc62dea5c987e46bc50520838e90693d00178ab9",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "assets/scene_pkg/materials.py",
+          "path": "modules/bpy/assets/scene_pkg/materials.py",
+          "source_sha256": "cbda2cecf4f763a96a18e5e5e9d969e82b1a9a8951218228d8963f59dadf9eb8",
+          "sha256": "cbda2cecf4f763a96a18e5e5e9d969e82b1a9a8951218228d8963f59dadf9eb8",
+          "previous_bundle_sha256": "cbda2cecf4f763a96a18e5e5e9d969e82b1a9a8951218228d8963f59dadf9eb8",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "assets/shape_lib.py",
+          "path": "modules/bpy/assets/shape_lib.py",
+          "source_sha256": "a1ac776f9949260dd7bb2dc18d034f497f4520ba77e01eab38947e07936a63a9",
+          "sha256": "a1ac776f9949260dd7bb2dc18d034f497f4520ba77e01eab38947e07936a63a9",
+          "previous_bundle_sha256": "a1ac776f9949260dd7bb2dc18d034f497f4520ba77e01eab38947e07936a63a9",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "assets/space_lib.py",
+          "path": "modules/bpy/assets/space_lib.py",
+          "source_sha256": "0c55129f056a4bb99a2f595a1068a154a5e7ece3e978e422c9db9b110448f2bf",
+          "sha256": "0c55129f056a4bb99a2f595a1068a154a5e7ece3e978e422c9db9b110448f2bf",
+          "previous_bundle_sha256": "0c55129f056a4bb99a2f595a1068a154a5e7ece3e978e422c9db9b110448f2bf",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "assets/styles/_INDEX.md",
+          "path": "modules/bpy/assets/styles/_INDEX.md",
+          "source_sha256": "7767b509ee8154c06d528a69363b689fa99e5fc1de7f84558cac96f360cd7d88",
+          "sha256": "7767b509ee8154c06d528a69363b689fa99e5fc1de7f84558cac96f360cd7d88",
+          "previous_bundle_sha256": "7767b509ee8154c06d528a69363b689fa99e5fc1de7f84558cac96f360cd7d88",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "assets/styles/_TEMPLATE.md",
+          "path": "modules/bpy/assets/styles/_TEMPLATE.md",
+          "source_sha256": "2baade1283bb62f4554d87a61f103afb34ade7cb17a3d16b98e71d82634cb7ae",
+          "sha256": "2baade1283bb62f4554d87a61f103afb34ade7cb17a3d16b98e71d82634cb7ae",
+          "previous_bundle_sha256": "2baade1283bb62f4554d87a61f103afb34ade7cb17a3d16b98e71d82634cb7ae",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "assets/styles/architecture/ando-tadao.md",
+          "path": "modules/bpy/assets/styles/architecture/ando-tadao.md",
+          "source_sha256": "a907c89df46740a58ab7e73242322c7bfc1517efe18fa4cce6312607705f283c",
+          "sha256": "a907c89df46740a58ab7e73242322c7bfc1517efe18fa4cce6312607705f283c",
+          "previous_bundle_sha256": "a907c89df46740a58ab7e73242322c7bfc1517efe18fa4cce6312607705f283c",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "assets/styles/architecture/kuma-kengo.md",
+          "path": "modules/bpy/assets/styles/architecture/kuma-kengo.md",
+          "source_sha256": "3efc4bcc47f652e27eba1e025a3b808c560714f6ecc22ea8241e3954c0d11842",
+          "sha256": "3efc4bcc47f652e27eba1e025a3b808c560714f6ecc22ea8241e3954c0d11842",
+          "previous_bundle_sha256": "3efc4bcc47f652e27eba1e025a3b808c560714f6ecc22ea8241e3954c0d11842",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "assets/styles/architecture/mies-van-der-rohe.md",
+          "path": "modules/bpy/assets/styles/architecture/mies-van-der-rohe.md",
+          "source_sha256": "0142edd08b2379991013ea367a6c3878a497abbe26fc1487e5c9fe8a64124a2f",
+          "sha256": "0142edd08b2379991013ea367a6c3878a497abbe26fc1487e5c9fe8a64124a2f",
+          "previous_bundle_sha256": "0142edd08b2379991013ea367a6c3878a497abbe26fc1487e5c9fe8a64124a2f",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "assets/styles/architecture/zaha-hadid.md",
+          "path": "modules/bpy/assets/styles/architecture/zaha-hadid.md",
+          "source_sha256": "af24d682b12fd86ddca829d423dc41c551a409f62aa67d3b18c11e61c569a972",
+          "sha256": "af24d682b12fd86ddca829d423dc41c551a409f62aa67d3b18c11e61c569a972",
+          "previous_bundle_sha256": "af24d682b12fd86ddca829d423dc41c551a409f62aa67d3b18c11e61c569a972",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "assets/styles/genre/anime-cel-daylight.md",
+          "path": "modules/bpy/assets/styles/genre/anime-cel-daylight.md",
+          "source_sha256": "bb954ed167a479f5adc0e3e7e242ab0717417dfd74ff8a4f1128531af1672537",
+          "sha256": "bb954ed167a479f5adc0e3e7e242ab0717417dfd74ff8a4f1128531af1672537",
+          "previous_bundle_sha256": "bb954ed167a479f5adc0e3e7e242ab0717417dfd74ff8a4f1128531af1672537",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "assets/styles/genre/low-poly-cute.md",
+          "path": "modules/bpy/assets/styles/genre/low-poly-cute.md",
+          "source_sha256": "199201f817adabb363fa9152286552f7dd0b9e44025d189639195b49f774ceff",
+          "sha256": "199201f817adabb363fa9152286552f7dd0b9e44025d189639195b49f774ceff",
+          "previous_bundle_sha256": "199201f817adabb363fa9152286552f7dd0b9e44025d189639195b49f774ceff",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "assets/styles/industrial/apple-ive.md",
+          "path": "modules/bpy/assets/styles/industrial/apple-ive.md",
+          "source_sha256": "85d993f3f87b8b95dcd7585cd74c14955c9ebf65c9247f330b82d60089143883",
+          "sha256": "85d993f3f87b8b95dcd7585cd74c14955c9ebf65c9247f330b82d60089143883",
+          "previous_bundle_sha256": "85d993f3f87b8b95dcd7585cd74c14955c9ebf65c9247f330b82d60089143883",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "assets/styles/industrial/braun-rams.md",
+          "path": "modules/bpy/assets/styles/industrial/braun-rams.md",
+          "source_sha256": "8de58f58677aa8429f6ea79c06f9395e4f6baf9ce22d4ae1e4074489ffee02d1",
+          "sha256": "8de58f58677aa8429f6ea79c06f9395e4f6baf9ce22d4ae1e4074489ffee02d1",
+          "previous_bundle_sha256": "8de58f58677aa8429f6ea79c06f9395e4f6baf9ce22d4ae1e4074489ffee02d1",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "assets/styles/industrial/leica-classic.md",
+          "path": "modules/bpy/assets/styles/industrial/leica-classic.md",
+          "source_sha256": "3c7d3b1f13a428feda893576d6d1f5e54e38a89154dfda3c8d69651c86ad7a25",
+          "sha256": "3c7d3b1f13a428feda893576d6d1f5e54e38a89154dfda3c8d69651c86ad7a25",
+          "previous_bundle_sha256": "3c7d3b1f13a428feda893576d6d1f5e54e38a89154dfda3c8d69651c86ad7a25",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "assets/styles/industrial/retro-future-80s.md",
+          "path": "modules/bpy/assets/styles/industrial/retro-future-80s.md",
+          "source_sha256": "54e032f77c426534a55baed791cf250343305a71f69fc114bddb34a39d0d8106",
+          "sha256": "54e032f77c426534a55baed791cf250343305a71f69fc114bddb34a39d0d8106",
+          "previous_bundle_sha256": "54e032f77c426534a55baed791cf250343305a71f69fc114bddb34a39d0d8106",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "assets/styles/industrial/sony.md",
+          "path": "modules/bpy/assets/styles/industrial/sony.md",
+          "source_sha256": "bb27101110bb56f0861c45c61f9b31f74b1b0991422c7588410c157b50fc0bd0",
+          "sha256": "bb27101110bb56f0861c45c61f9b31f74b1b0991422c7588410c157b50fc0bd0",
+          "previous_bundle_sha256": "bb27101110bb56f0861c45c61f9b31f74b1b0991422c7588410c157b50fc0bd0",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "assets/styles/interior/japandi-wabisabi.md",
+          "path": "modules/bpy/assets/styles/interior/japandi-wabisabi.md",
+          "source_sha256": "84d3a85020a6b9e7c97aa9a987940fcdc75a95511f3b4e499c0ba5eae166f05e",
+          "sha256": "84d3a85020a6b9e7c97aa9a987940fcdc75a95511f3b4e499c0ba5eae166f05e",
+          "previous_bundle_sha256": "84d3a85020a6b9e7c97aa9a987940fcdc75a95511f3b4e499c0ba5eae166f05e",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "assets/styles/interior/midcentury-modern.md",
+          "path": "modules/bpy/assets/styles/interior/midcentury-modern.md",
+          "source_sha256": "87daf8d4c01cf2560a6ac1ac36ef66627b2c843d2b0f5a9f21fb18ff7f37f821",
+          "sha256": "87daf8d4c01cf2560a6ac1ac36ef66627b2c843d2b0f5a9f21fb18ff7f37f821",
+          "previous_bundle_sha256": "87daf8d4c01cf2560a6ac1ac36ef66627b2c843d2b0f5a9f21fb18ff7f37f821",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "assets/styles/interior/scandinavian.md",
+          "path": "modules/bpy/assets/styles/interior/scandinavian.md",
+          "source_sha256": "00be531470e0b7f1ead9318b388c37cabe1e210724268952f2c1107f02482c41",
+          "sha256": "00be531470e0b7f1ead9318b388c37cabe1e210724268952f2c1107f02482c41",
+          "previous_bundle_sha256": "00be531470e0b7f1ead9318b388c37cabe1e210724268952f2c1107f02482c41",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "assets/triview_build.py",
+          "path": "modules/bpy/assets/triview_build.py",
+          "source_sha256": "dd302d454cbc87cad73586baceef6e37c7a06a9eb39707fe20dc2e9a9f0167e5",
+          "sha256": "dd302d454cbc87cad73586baceef6e37c7a06a9eb39707fe20dc2e9a9f0167e5",
+          "previous_bundle_sha256": "dd302d454cbc87cad73586baceef6e37c7a06a9eb39707fe20dc2e9a9f0167e5",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "assets/triview_lib.py",
+          "path": "modules/bpy/assets/triview_lib.py",
+          "source_sha256": "972f777b8eee136c151d72439dc1d4782ccc9cdcf44f56e2a9e9915fe7ebc91a",
+          "sha256": "972f777b8eee136c151d72439dc1d4782ccc9cdcf44f56e2a9e9915fe7ebc91a",
+          "previous_bundle_sha256": "972f777b8eee136c151d72439dc1d4782ccc9cdcf44f56e2a9e9915fe7ebc91a",
+          "status": "retained"
+        },
+        {
+          "upstream_path": "assets/triview_loft.py",
+          "path": "modules/bpy/assets/triview_loft.py",
+          "source_sha256": "1643307c6eb9263b6edb3cab05434c23509f1ff481e28a42a780d46de02b5a63",
+          "sha256": "1643307c6eb9263b6edb3cab05434c23509f1ff481e28a42a780d46de02b5a63",
+          "previous_bundle_sha256": "1643307c6eb9263b6edb3cab05434c23509f1ff481e28a42a780d46de02b5a63",
+          "status": "retained"
+        }
+      ]
+    }
+  ],
+  "externalized_references": [
+    {
+      "from": "modules/curio/THIRD_PARTY_NOTICES.md",
+      "original": "docs/images/README.md",
+      "upstream": "https://github.com/wss534857356/curio-asset-skills/blob/bb4080bd0a4e34dc0c98c35301a877b127a1cda7/docs/images/README.md"
+    },
+    {
+      "from": "modules/curio/ASSET_NOTICE.md",
+      "original": "docs/images/README.md",
+      "upstream": "https://github.com/wss534857356/curio-asset-skills/blob/bb4080bd0a4e34dc0c98c35301a877b127a1cda7/docs/images/README.md"
+    },
+    {
+      "from": "modules/curio/docs/usage.md",
+      "original": "validation-workflow.example.yml",
+      "upstream": "https://github.com/wss534857356/curio-asset-skills/blob/bb4080bd0a4e34dc0c98c35301a877b127a1cda7/docs/validation-workflow.example.yml"
+    },
+    {
+      "from": "modules/curio/examples/badger-balance/README.md",
+      "original": "../../docs/images/badger-balance-assembled.png",
+      "upstream": "https://github.com/wss534857356/curio-asset-skills/blob/bb4080bd0a4e34dc0c98c35301a877b127a1cda7/docs/images/badger-balance-assembled.png"
+    },
+    {
+      "from": "modules/curio/examples/badger-balance/README.md",
+      "original": "../../docs/images/badger-sculpt-high.png",
+      "upstream": "https://github.com/wss534857356/curio-asset-skills/blob/bb4080bd0a4e34dc0c98c35301a877b127a1cda7/docs/images/badger-sculpt-high.png"
+    },
+    {
+      "from": "modules/curio/examples/badger-balance/README.md",
+      "original": "../../docs/images/badger-uv-layout.svg",
+      "upstream": "https://github.com/wss534857356/curio-asset-skills/blob/bb4080bd0a4e34dc0c98c35301a877b127a1cda7/docs/images/badger-uv-layout.svg"
+    },
+    {
+      "from": "modules/curio/examples/badger-balance/README.md",
+      "original": "../../docs/images/badger-balance-game.png",
+      "upstream": "https://github.com/wss534857356/curio-asset-skills/blob/bb4080bd0a4e34dc0c98c35301a877b127a1cda7/docs/images/badger-balance-game.png"
+    },
+    {
+      "from": "modules/curio/examples/faceted-gems/README.md",
+      "original": "../../docs/images/gem-transmission-red.png",
+      "upstream": "https://github.com/wss534857356/curio-asset-skills/blob/bb4080bd0a4e34dc0c98c35301a877b127a1cda7/docs/images/gem-transmission-red.png"
+    },
+    {
+      "from": "modules/curio/examples/faceted-gems/README.md",
+      "original": "../../docs/images/gem-transmission-blue.png",
+      "upstream": "https://github.com/wss534857356/curio-asset-skills/blob/bb4080bd0a4e34dc0c98c35301a877b127a1cda7/docs/images/gem-transmission-blue.png"
+    }
+  ]
+}

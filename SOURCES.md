@@ -1,16 +1,14 @@
-# 方法来源与进一步阅读
+# 来源与许可
 
-本仓库的工作流说明为重新整理的摘要，没有复制或分发下列项目的执行脚本、艺术资产或完整技能包。引用不表示这些工具已安装、已实测全部功能或已通过任何平台审核。
+| 模块 | 来源 | 固定commit |
+|---|---|---|
+| Curio | https://github.com/wss534857356/curio-asset-skills | bb4080bd0a4e34dc0c98c35301a877b127a1cda7 |
+| cc-blender | https://github.com/RobLe3/cc-blender-skill | a2634b588e80265e796aa53f8ab178d75105c2af |
+| Studio | https://github.com/ifBars/blender-agent-studio | 517bf73e8a0323272be715cbbb4f3b830102a8da |
+| bpy | https://github.com/capybala18/capybala-bpy-skill | adf82478d3766da94ecdc6c01dabcca82cb4cc4d |
 
-- Curio Asset Skills（九类资产流程）：https://github.com/wss534857356/curio-asset-skills
-- Blender lighting/rendering/reference-look workflows：https://github.com/RobLe3/cc-blender-skill
-- Authored scene rendering workflow：https://github.com/ifBars/blender-agent-studio
-- bpy building and quality methods：https://github.com/capybala18/capybala-bpy-skill
-- Blender官方手册：https://docs.blender.org/manual/
-- Poly Haven资源与许可：https://polyhaven.com/ 、https://polyhaven.com/license
-- ambientCG：https://ambientcg.com/
-- BlenderKit：https://www.blenderkit.com/
-- JangaFX免费VDB：https://jangafx.com/software/embergen/download/free-vdb-animations
+各模块保留完整MIT许可证、作者版权与Curio第三方声明。source-lock记录原始路径、来源hash与本地修改后hash。原SKILL.md改为GUIDE.md，按主技能路由加载。Curio中mesh-split-fill原上游commit未记录，不捏造；Meshy历史快照详情保留在其THIRD_PARTY_NOTICES.md。
 
-网站、API、程序源码和具体艺术资产可能具有不同许可，使用时分别核对。未来确需引入上游代码，应逐文件审查、固定版本、保留作者和许可证并实际测试；不整包自动下载执行。
+Curio展示截图/UV图与源模型不适用MIT，本包未分发。家徽SVG按Curio声明保留。模型、纹理、HDRI、字体和缓存的许可在具体任务中独立核查，不从代码许可推断资源许可。
 
+资源入口：Blender手册 https://docs.blender.org/manual/ 、Poly Haven https://polyhaven.com/ 、ambientCG https://ambientcg.com/ 、BlenderKit https://www.blenderkit.com/ 、JangaFX https://jangafx.com/software/embergen/download/free-vdb-animations 。资源许可与API使用条款分别核查。
